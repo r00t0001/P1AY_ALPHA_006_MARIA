@@ -1,0 +1,44 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# JavaScript and generated output
+node_modules/
+dist/
+build/
+coverage/
+
+# P1AY private state
+private/
+**/private/
+*.save.json
+*_CURRENT_STATE.*
+*_EVENT_LEDGER.*
+P1AY_CORE.private.*
+
+# Local release bundles
+*.zip
+*.zip.sha256

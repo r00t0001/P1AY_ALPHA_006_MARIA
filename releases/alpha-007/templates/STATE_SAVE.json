@@ -1,0 +1,54 @@
+{
+  "schema_version": "P1AY_SAVE_04",
+  "core_version": "ALPHA_007",
+  "owner": {
+    "user_id": null,
+    "alias": null,
+    "confirmed": false
+  },
+  "updated_at": null,
+  "timezone": null,
+  "p1ayer_class": "UNKNOWN",
+  "safety_state": "UNKNOWN",
+  "load_state": "UNKNOWN",
+  "quest_model_version": "WAY_6BG_3MAIN_001",
+  "state_anchors": {
+    "disclosed": false,
+    "enabled": null
+  },
+  "permissions": [],
+  "facts": [],
+  "hypotheses": [],
+  "way_direction": {
+    "phase": "NOT_STARTED",
+    "offered_directions": [],
+    "selected_direction_ids": [],
+    "background_tasks": [],
+    "main_task_ids": [],
+    "open_main_slots": 3
+  },
+  "quests": [],
+  "last_completed_quest": null,
+  "cycle": {
+    "start": null,
+    "end": null
+  },
+  "recovery": {
+    "window_end": null,
+    "coverage": "UNKNOWN",
+    "events": [],
+    "sleep_minutes": null,
+    "other_recovery_minutes": null,
+    "status": "UNKNOWN"
+  },
+  "sources": [],
+  "pending_actions": [],
+  "conflicts": [],
+  "migration": {
+    "from_core": null,
+    "source_save": null,
+    "owner_verified": false,
+    "pause_preserved": null,
+    "changes": []
+  }
+}

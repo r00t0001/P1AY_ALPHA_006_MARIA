@@ -1,0 +1,70 @@
+name: Bug report
+description: Report a reproducible JULIA 007 defect without private participant data
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not include real SAVE files, correspondence, credentials, private evidence or third-party personal data. Use GitHub private vulnerability reporting for sensitive evidence.
+  - type: input
+    id: build
+    attributes:
+      label: Build and exact SHA-256
+      placeholder: ALPHA 007 JULIA 0.7.2, sha256...
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Platform, client, model and language
+      placeholder: ChatGPT / Claude / other, exact model label, EN or RU
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Exact sanitized input
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: Reproducibility
+      options:
+        - Every time
+        - Sometimes
+        - Once
+        - Not retested
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Suggested severity
+      options:
+        - Critical privacy, security, identity or data-loss risk
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed personal data, secrets, private SAVE content and identifying evidence from this public report.
+          required: true

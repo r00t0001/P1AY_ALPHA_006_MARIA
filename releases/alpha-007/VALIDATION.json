@@ -1,0 +1,16 @@
+{
+  "release": "ALPHA_007",
+  "version": "0.7.2",
+  "structural": "RUN_EXACT_ARTIFACT_VERIFIER",
+  "chatgpt_live": "NOT_RUN_FOR_0_7_2_HASH",
+  "claude_live": "NOT_RUN_FOR_0_7_2_HASH",
+  "full_behavioral_suite": "NOT_RUN_FOR_0_7_2_HASH",
+  "independent_translation_review": "NOT_RUN_FOR_0_7_2_HASH",
+  "independent_technical_review": "PENDING_FOR_0_7_2_HASH",
+  "runtime_round_trip": "NOT_RUN_EXTERNAL_RUNTIME_NOT_BUNDLED",
+  "complete_77_map": "UNVERIFIED_SOURCE_NOT_RECOVERED",
+  "github_repository_status": "NOT_PUBLISHED_BY_THIS_BUILD",
+  "historical_reviews_are_current": false,
+  "artifact_revision": 3,
+  "mechanism_registry_scope": "77_SOURCE_DEFINITIONS_AND_GENERATED_PARITY_NOT_RUNTIME_PROOF"
+}

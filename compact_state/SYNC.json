@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "PENDING": 1
+  },
+  "files": 1,
+  "last_error": null,
+  "project": "P1AY",
+  "reminder_required": true,
+  "save_check": "PASS_LOCAL_SAVE_ONLY",
+  "save_hash": "833228395a81dceacf5e8ed0a9012cb4666d0528afd48e9de4a921d5b7718196",
+  "schema": "COMPACT_SYNC_STATUS_01",
+  "server_confirmation": "ONLY_EXPLICIT_RECEIPTS",
+  "transport": "GOOGLE_DRIVE_DESKTOP",
+  "unresolved": 1,
+  "canonical_target_build": "0.7.2-r3-architecture-foundation",
+  "canonical_target_pointer_sha256": "341e0bdf691c918957c2649a70de76dddfd34870bddf09c6785eddc4accf056e",
+  "canonical_target_core_sha256": "d6ea14fb76a8371f22afe0c7f3cce94c50000b3c941c02b8d90f1b94fba7c868",
+  "canonical_reconciliation": "COMPUTER_COMPACT_APPLIED_OWNER_APPROVED_R3_ARCHITECTURE"
+}

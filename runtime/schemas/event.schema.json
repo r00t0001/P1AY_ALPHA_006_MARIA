@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:p1ay:event:1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "event_id",
+    "owner_id",
+    "sender_device",
+    "base_version",
+    "payload_hash",
+    "save",
+    "created_at"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "P1AY_SYNC_EVENT_01"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sender_device": {
+      "type": "string",
+      "minLength": 1
+    },
+    "base_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "payload_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "save": {
+      "$ref": "save.schema.json"
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

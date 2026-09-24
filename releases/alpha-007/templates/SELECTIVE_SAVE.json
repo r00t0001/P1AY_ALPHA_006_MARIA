@@ -1,0 +1,33 @@
+{
+  "schema_version": "P1AY_SELECTIVE_SAVE_02",
+  "status": "PREPARED_NOT_SENT",
+  "owner": null,
+  "source_revision": null,
+  "created_at": null,
+  "recipient": null,
+  "purpose": null,
+  "scope": [],
+  "terms": null,
+  "duration": null,
+  "expires_at": null,
+  "consent": {
+    "status": "NOT_GRANTED",
+    "confirmed_at": null,
+    "evidence": []
+  },
+  "owner_confirmation": {
+    "status": "NOT_CONFIRMED",
+    "confirmed_at": null
+  },
+  "provenance": [],
+  "transfer_evidence": [],
+  "revocation": {
+    "status": "NOT_REQUESTED",
+    "requested_at": null,
+    "effective_at": null
+  },
+  "records": [],
+  "full_player_included": false,
+  "sources_included": false,
+  "permission_notice": "Choose explicit record IDs, recipient, purpose, scope, terms and duration; record provenance, owner confirmation and consent evidence before sharing. Expiry or revocation stops future authorized transfer but cannot technically recall a downloaded copy."
+}

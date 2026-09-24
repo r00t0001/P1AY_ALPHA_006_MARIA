@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:p1ay:signed-message:1",
+  "type": "object",
+  "required": [
+    "message",
+    "signature"
+  ],
+  "properties": {
+    "message": {
+      "type": "object"
+    },
+    "signature": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,6 @@
+COMMUNICATION / PRIVATE / EMPTY TEMPLATE
+owner_id: UNKNOWN
+records: []
+Each entry: id, date/timezone, author, audience, source, exact text, version, status, linked decisions, permission.
+Statuses: PROPOSED / PREPARED / PREPARED_NOT_SENT / SENT / RECEIVED / ACCEPTED / IMPLEMENTED / VERIFIED.
+Запись: id, дата/часовой пояс, автор, аудитория, источник, точный текст, версия, статус, решения, разрешение.

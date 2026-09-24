@@ -1,0 +1,179 @@
+{
+  "schema_version": "P1AY_RECONCILIATION_01",
+  "version": "0.7.2",
+  "scope": "Shared protocol, available release lineage and relevant owner corrections",
+  "items": [
+    {
+      "id": "COMMUNICATION.RU.001",
+      "disposition": "RESTORED",
+      "source": "PHONE_2026_09_19_AND_ARCHITECT_2026_09_21",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "BEHAVIOR.PILLARS.001",
+      "disposition": "RESTORED",
+      "source": "PHONE_2026_09_19_AND_ARCHITECT_2026_09_21",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "FOUNDATION.CONTRACT.001",
+      "disposition": "RESTORED",
+      "source": "PHONE_2026_09_19_AND_ARCHITECT_2026_09_21",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "REUSE.EXISTING.001",
+      "disposition": "RESTORED",
+      "source": "PHONE_2026_09_19_AND_ARCHITECT_2026_09_21",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "ITERATION.CYCLE.001",
+      "disposition": "RESTORED",
+      "source": "PHONE_2026_09_19_AND_ARCHITECT_2026_09_21",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "TRUTH.REALITY.001",
+      "disposition": "RESTORED",
+      "source": "PHONE_2026_09_19_AND_ARCHITECT_2026_09_21",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "TRUTH.EVIDENCE.001",
+      "disposition": "RESTORED",
+      "source": "PHONE_2026_09_19_AND_ARCHITECT_2026_09_21",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "CHOICE.DESIRE_ACTION.001",
+      "disposition": "RESTORED",
+      "source": "OWNER_CHOICE_CORRECTION_2026_09_22",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "BOUNDARIES.FRIENDSHIP.001",
+      "disposition": "GENERALIZED_WITH_PRIVATE_BOUNDARY",
+      "source": "OWNER_FRIENDSHIP_CONVERSATION_2026_09_24",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "SYNC.STATES.001",
+      "disposition": "CLARIFIED",
+      "source": "COMPACT_CORE_2026_09_23_AND_HUB_2026_09_24",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "SYNC.AUTHORITY.001",
+      "disposition": "CLARIFIED",
+      "source": "ARCHITECT_2026_09_21_AND_COMPACT_CORE_2026_09_23",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "CANON.MERGE.001",
+      "disposition": "CLARIFIED",
+      "source": "ARCHITECT_2026_09_21_AND_CURRENT_AUDIT",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "BRAND.EXACT.001",
+      "disposition": "CLARIFIED",
+      "source": "OWNER_BRAND_AND_PROFILE_CORRECTIONS_2026_09_23_24",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "COMMANDS.ALIASES.001",
+      "disposition": "RECOVERED_CONTRACT",
+      "source": "PLAYER_20260923 + PHONE_20260919 + OWNER_CONTEXT",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "LOAD.RECEIPT.001",
+      "disposition": "FIX",
+      "source": "CURRENT_AUDIT_2026_09_24",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "RELEASE.SCOPE.001",
+      "disposition": "SCOPE_CORRECTION",
+      "source": "CURRENT_AUDIT_2026_09_24",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "WAY_6BG_3MAIN_001",
+      "disposition": "PRESENT_IN_MASTER",
+      "source": "007.1 actual CORE",
+      "target": "preserved_core_bodies",
+      "note": "Preserve 6 directions / 2 chosen / 3+3 tasks / 3 MAIN; older 2-action phone summary is SUPERSEDED for this release."
+    },
+    {
+      "id": "DIALOG_MODES_DOUBLE_YES",
+      "disposition": "PRESENT_IN_MASTER",
+      "source": "007.1 CORE",
+      "target": "preserved_core_bodies",
+      "note": "Already present; previous audit claim of missing YES/NO was wrong."
+    },
+    {
+      "id": "FRIENDSHIP_PERSONAL_THREE_WARNINGS",
+      "disposition": "PRIVATE_ONLY",
+      "source": "Current owner conversation 2026-09-24",
+      "target": "Separate private owner delta, not public profile template"
+    },
+    {
+      "id": "PHONE_FRIENDSHIP_TRANSPORT",
+      "disposition": "UNVERIFIED",
+      "source": "Hub inspected 2026-09-24; no corresponding new delta/ACK observed",
+      "target": "Private intake packet",
+      "note": "Capture direct conversation; do not forge phone receipt."
+    },
+    {
+      "id": "PPD.PRODUCT_PROOF.001",
+      "disposition": "RECOVERED_CONTRACT",
+      "source": "PHONE_20260919 + EXTERNAL_PRODUCT_REVIEW_20260911 + OWNER_CANON",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE",
+      "note": "PPD returns Activated / completed actions / CVA / voluntary returns / D3 / D7 / pay; missing values are UNKNOWN."
+    },
+    {
+      "id": "FULL_77_MAP",
+      "disposition": "RESTORED",
+      "source": "OWNER_PROVIDED_MECHANISMS_77_TRANSCRIPT",
+      "source_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+      "target": "CORE_MASTER.mechanism_registry + generated CORE/SYSTEMS/MECHANISMS_77.json",
+      "previous_disposition": {
+        "id": "FULL_77_MAP",
+        "disposition": "HISTORICAL_PROVENANCE_NOT_CURRENT_GATE",
+        "source": "77 header/declaration but no enumerated map in inspected release ZIPs",
+        "target": "PRODUCT_MAP_STATUS.json",
+        "note": "77 remains a historical approved count; current completeness is explicit CORE_MASTER rule IDs plus preserved CORE, not an unrecovered named registry."
+      },
+      "scope": "All 77 source definitions; not external runtime certification"
+    },
+    {
+      "id": "SQLITE_SIGNED_SYNC_RUNTIME",
+      "disposition": "SCOPE_OUT",
+      "source": "007.1 changelog conflicts with actual archive",
+      "target": "release metadata and deployment boundary",
+      "note": "Existing computer runtime is not replaced or claimed shipped."
+    },
+    {
+      "id": "OWNER_PRIVATE_HISTORY_AND_PEOPLE",
+      "disposition": "PRIVATE_ONLY",
+      "source": "Phone/Architect snapshots",
+      "target": "Private evidence, not distribution"
+    },
+    {
+      "id": "INDEPENDENT_AND_LIVE_TESTS",
+      "disposition": "UNVERIFIED",
+      "source": "Current exact bytes have no external receipt",
+      "target": "VALIDATION.json"
+    },
+    {
+      "id": "SAVE_DEFINITION_SYSTEM_STATE",
+      "disposition": "RESTORED",
+      "source": "source line 560; bilingual confirmation 566-569",
+      "target": "mechanism M018 and generated views"
+    }
+  ],
+  "complete_private_master_merged": false,
+  "artifact_revision": 3
+}

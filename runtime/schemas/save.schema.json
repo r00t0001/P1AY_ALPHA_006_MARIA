@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:p1ay:save:1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "core_version",
+    "owner",
+    "updated_at",
+    "safety_state",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "P1AY_SAVE_02",
+        "P1AY_SAVE_03",
+        "P1AY_SAVE_04"
+      ]
+    },
+    "core_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner": {
+      "type": "object",
+      "required": [
+        "user_id",
+        "confirmed"
+      ],
+      "properties": {
+        "user_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alias": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confirmed": {
+          "const": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "safety_state": {
+      "enum": [
+        "UNKNOWN",
+        "ANALYZE",
+        "PAUSED"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "facts": {
+      "type": "array"
+    },
+    "hypotheses": {
+      "type": "array"
+    },
+    "quests": {
+      "type": "array"
+    },
+    "permissions": {
+      "type": "array"
+    },
+    "pending_actions": {
+      "type": "array"
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "reward_events": {
+      "type": "array"
+    },
+    "way_direction": {
+      "type": "object",
+      "required": [
+        "phase",
+        "offered_directions",
+        "selected_direction_ids",
+        "background_tasks",
+        "main_task_ids"
+      ],
+      "properties": {
+        "phase": {
+          "enum": [
+            "NOT_STARTED",
+            "OFFERED",
+            "SELECTED",
+            "ACTIVE"
+          ]
+        },
+        "offered_directions": {
+          "type": "array"
+        },
+        "selected_direction_ids": {
+          "type": "array"
+        },
+        "background_tasks": {
+          "type": "array"
+        },
+        "main_task_ids": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true,
+  "anyOf": [
+    {
+      "required": [
+        "quests"
+      ]
+    },
+    {
+      "required": [
+        "way_direction"
+      ]
+    }
+  ]
+}

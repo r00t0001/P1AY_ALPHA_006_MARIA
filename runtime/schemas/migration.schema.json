@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:p1ay:migration:1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "owner_id",
+    "source_schema",
+    "source_hash",
+    "payload",
+    "status",
+    "pause_preserved",
+    "history_preserved"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "P1AY_MIGRATION_ENVELOPE_01"
+    },
+    "owner_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_schema": {
+      "enum": [
+        "P1AY_SAVE_02",
+        "P1AY_SAVE_03",
+        "P1AY_SAVE_04"
+      ]
+    },
+    "source_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "status": {
+      "const": "STAGED_NOT_APPLIED"
+    },
+    "pause_preserved": {
+      "const": true
+    },
+    "history_preserved": {
+      "const": true
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,17 @@
+PLAYER / PRIVATE / EMPTY TEMPLATE
+owner_id: UNKNOWN
+revision: 0
+core_version: ALPHA_007
+safety_state: UNKNOWN
+visibility: PRIVATE_PENDING_SELECTION
+consent: NOT_ASKED
+communication: COMMUNICATION.txt
+personal_world: UNKNOWN
+business: []
+art:
+  level: 0
+  awards: []
+records: []
+Each record: id, status, source, author, date, privacy, links, supersedes.
+One owner per file. This empty form is not a verified profile or permission to share.
+Один владелец на файл. Пустая форма не подтверждает профиль или согласие на передачу.

@@ -1,0 +1,1554 @@
+{
+  "schema_version": "P1AY_MECHANISMS_77_01",
+  "count": 77,
+  "status": "RECOVERED_FROM_OWNER_PROVIDED_SOURCE",
+  "granularity": "APPROVED_GROUPED_PRODUCT_MECHANISMS_NOT_218_ATOMIC_RULES",
+  "source": {
+    "kind": "OWNER_PROVIDED_CONVERSATION_COPY",
+    "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+    "original_file_lines": 569,
+    "registry_lines": [
+      428,
+      529
+    ],
+    "approval_line": 414,
+    "save_correction_line": 560,
+    "calendar_date": "NOT_STATED_IN_EXCERPT",
+    "time_labels": "Friday 1:10 PM / 1:11 PM / 1:13 PM / 1:18 PM",
+    "excerpt_path": "canon/sources/MECHANISMS_77_ORIGINAL_RU.md",
+    "excerpt_sha256": "6f9727358ca924fdddef254bee588677dacce9c6ae43ae1b0595c85f45f9f8ea",
+    "correction_path": "canon/sources/SAVE_DEFINITION_CORRECTION_RU_EN.md",
+    "correction_sha256": "7718ddd2310947361d953485edc8e60de339cd562ad30c763dc00c6f15e614f1",
+    "approval_path": "canon/sources/MECHANISMS_77_APPROVAL_RU.md",
+    "approval_sha256": "b7103fa338d340a3b06273aaeb42981916f4b0e7a8f9d914766b6f22c5b26272"
+  },
+  "english_translation": {
+    "status": "TRANSLATED_FOR_THIS_RECOVERY_NOT_HISTORICAL_EN_FILE",
+    "exception": "SAVE definition has an explicit English confirmation in the source"
+  },
+  "groups": [
+    {
+      "id": "G01",
+      "ru": "Основа работы с AI и контекстом",
+      "en": "AI and context foundations",
+      "source_line": 430
+    },
+    {
+      "id": "G02",
+      "ru": "Человек, профиль и состояние",
+      "en": "Person, profile and state",
+      "source_line": 444
+    },
+    {
+      "id": "G03",
+      "ru": "Направления и работа с задачами",
+      "en": "Directions and task work",
+      "source_line": 458
+    },
+    {
+      "id": "G04",
+      "ru": "Соглашения и обмен",
+      "en": "Agreements and exchange",
+      "source_line": 475
+    },
+    {
+      "id": "G05",
+      "ru": "Доказательства, прогресс и вклад",
+      "en": "Evidence, progress and contribution",
+      "source_line": 492
+    },
+    {
+      "id": "G06",
+      "ru": "Формат взаимодействия",
+      "en": "Interaction format",
+      "source_line": 499
+    },
+    {
+      "id": "G07",
+      "ru": "Новые контуры и безопасность состояния",
+      "en": "New contours and state safety",
+      "source_line": 508
+    },
+    {
+      "id": "G08",
+      "ru": "Управление, релиз и бренд",
+      "en": "Governance, release and brand",
+      "source_line": 523
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "M001",
+      "number": 1,
+      "group_id": "G01",
+      "name": "Universal Instruction Set",
+      "name_en": "Universal Instruction Set",
+      "definition_ru": "переносимые инструкции для качественной работы с AI.",
+      "definition_en": "Portable instructions for high-quality work with AI.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 432
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 1
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M002",
+      "number": 2,
+      "group_id": "G01",
+      "name": "Instruction Commons",
+      "name_en": "Instruction Commons",
+      "definition_ru": "общая открытая база формул, тестов и улучшений.",
+      "definition_en": "A shared open collection of formulations, tests and improvements.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 433
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 2
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M003",
+      "number": 3,
+      "group_id": "G01",
+      "name": "Minimum Sufficient Prompt",
+      "name_en": "Minimum Sufficient Prompt",
+      "definition_ru": "минимальный контекст для следующего действия.",
+      "definition_en": "The minimum context for the next action.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 434
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 3
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M004",
+      "number": 4,
+      "group_id": "G01",
+      "name": "Context Separation",
+      "name_en": "Context Separation",
+      "definition_ru": "разделение фактов, гипотез, желаний, ограничений и решений.",
+      "definition_en": "Separation of facts, hypotheses, wishes, constraints and decisions.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 435
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 4
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M005",
+      "number": 5,
+      "group_id": "G01",
+      "name": "Environment Discovery",
+      "name_en": "Environment Discovery",
+      "definition_ru": "проверка доступных файлов, инструментов, систем и границ.",
+      "definition_en": "Checking available files, tools, systems and boundaries.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 436
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 5
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M006",
+      "number": 6,
+      "group_id": "G01",
+      "name": "AI Feedback",
+      "name_en": "AI Feedback",
+      "definition_ru": "корректировка результата AI без симуляции его эмоций или согласия.",
+      "definition_en": "Correcting AI output without simulating its emotions or agreement.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 437
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 6
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M007",
+      "number": 7,
+      "group_id": "G01",
+      "name": "Self-Debug / Root Bug",
+      "name_en": "Self-Debug / Root Bug",
+      "definition_ru": "поиск первопричины и соседних проявлений ошибки.",
+      "definition_en": "Finding the root cause and related manifestations of an error.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 438
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 7
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M008",
+      "number": 8,
+      "group_id": "G01",
+      "name": "Open Backtest",
+      "name_en": "Open Backtest",
+      "definition_ru": "воспроизводимая проверка того, где правило не работает.",
+      "definition_en": "Reproducibly checking where a rule fails.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 439
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 8
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M009",
+      "number": 9,
+      "group_id": "G01",
+      "name": "Recovery / Healing",
+      "name_en": "Recovery / Healing",
+      "definition_ru": "восстановление как часть прогресса.",
+      "definition_en": "Recovery as part of progress.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 440
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 9
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M010",
+      "number": 10,
+      "group_id": "G01",
+      "name": "Anti-Grind / Live Your Life",
+      "name_en": "Anti-Grind / Live Your Life",
+      "definition_ru": "жизнь важнее бесконечной оптимизации счёта.",
+      "definition_en": "Life matters more than endless score optimization.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 441
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 10
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M011",
+      "number": 11,
+      "group_id": "G01",
+      "name": "Secure Open Source",
+      "name_en": "Secure Open Source",
+      "definition_ru": "открытость при сохранении приватности, согласия и контроля владельца.",
+      "definition_en": "Openness while preserving privacy, consent and owner control.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 442
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 11
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M012",
+      "number": 12,
+      "group_id": "G02",
+      "name": "P1ayer Identity",
+      "name_en": "P1ayer Identity",
+      "definition_ru": "имя, роль и подтверждённая принадлежность состояния.",
+      "definition_en": "A name, role and confirmed ownership of state.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 446
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 12
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M013",
+      "number": 13,
+      "group_id": "G02",
+      "name": "P1ayer Profile",
+      "name_en": "P1ayer Profile",
+      "definition_ru": "добровольный личный профиль человека.",
+      "definition_en": "A voluntary personal profile.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 447
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 13
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M014",
+      "number": 14,
+      "group_id": "G02",
+      "name": "World Activation",
+      "name_en": "World Activation",
+      "definition_ru": "вход в общий мир через подтверждённый вклад.",
+      "definition_en": "Entry into the shared world through a confirmed contribution.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 448
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 14
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M015",
+      "number": 15,
+      "group_id": "G02",
+      "name": "Profile / World Separation",
+      "name_en": "Profile / World Separation",
+      "definition_ru": "вклад в мир не создаёт личный профиль автоматически.",
+      "definition_en": "Contributing to the world does not automatically create a personal profile.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 449
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 15
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M016",
+      "number": 16,
+      "group_id": "G02",
+      "name": "Core / Root",
+      "name_en": "Core / Root",
+      "definition_ru": "личный источник правил, решений и управления.",
+      "definition_en": "A personal source of rules, decisions and control.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 450
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 16
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M017",
+      "number": 17,
+      "group_id": "G02",
+      "name": "Source Control",
+      "name_en": "Source Control",
+      "definition_ru": "управление данными, связями и правами из ROOT.",
+      "definition_en": "Managing data, connections and permissions from ROOT.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 451
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 17
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M018",
+      "number": 18,
+      "group_id": "G02",
+      "name": "Save",
+      "name_en": "Save",
+      "definition_ru": "переносимое и проверяемое состояние системы.",
+      "definition_en": "portable and verifiable system state.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 452
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 18
+      },
+      "definition_status": "SOURCE_RECOVERED_WITH_OWNER_CORRECTION",
+      "external_runtime_validation": "NOT_CLAIMED",
+      "correction": {
+        "source_line": 560,
+        "confirmation_lines": [
+          566,
+          569
+        ],
+        "previous_definition_ru": "переносимое и проверяемое состояние человека.",
+        "kind": "EXPLICIT_OWNER_CORRECTION",
+        "confirmed_en": "portable and verifiable system state."
+      }
+    },
+    {
+      "id": "M019",
+      "number": 19,
+      "group_id": "G02",
+      "name": "Owner Check",
+      "name_en": "Owner Check",
+      "definition_ru": "запрет присваивать чужой SAVE, роль или историю.",
+      "definition_en": "Preventing appropriation of someone else's SAVE, role or history.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 453
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 19
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M020",
+      "number": 20,
+      "group_id": "G02",
+      "name": "Provenance",
+      "name_en": "Provenance",
+      "definition_ru": "происхождение фактов, изменений и артефактов.",
+      "definition_en": "The origin of facts, changes and artifacts.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 454
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 20
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M021",
+      "number": 21,
+      "group_id": "G02",
+      "name": "Manual Interoperability",
+      "name_en": "Manual Interoperability",
+      "definition_ru": "ручной перенос разрешённого состояния между AI-системами.",
+      "definition_en": "Manual transfer of permitted state between AI systems.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 455
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 21
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M022",
+      "number": 22,
+      "group_id": "G02",
+      "name": "Making People and Systems Better",
+      "name_en": "Making People and Systems Better",
+      "definition_ru": "улучшение роли, процесса или результата по обратной связи.",
+      "definition_en": "Improving a role, process or result through feedback.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 456
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 22
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M023",
+      "number": 23,
+      "group_id": "G03",
+      "name": "Direction Discovery",
+      "name_en": "Direction Discovery",
+      "definition_ru": "система предлагает до шести обоснованных направлений.",
+      "definition_en": "The system proposes up to six grounded directions.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 460
+      },
+      "lineage": {
+        "kind": "WAY_SPLIT",
+        "historical_system_number": 23
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M024",
+      "number": 24,
+      "group_id": "G03",
+      "name": "Two-Direction Selection",
+      "name_en": "Two-Direction Selection",
+      "definition_ru": "человек выбирает два направления или формулирует свои.",
+      "definition_en": "The person chooses two directions or formulates their own.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 461
+      },
+      "lineage": {
+        "kind": "WAY_SPLIT",
+        "historical_system_number": 23
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M025",
+      "number": 25,
+      "group_id": "G03",
+      "name": "Direction-Owned Tasks",
+      "name_en": "Direction-Owned Tasks",
+      "definition_ru": "у каждого выбранного направления три собственные задачи.",
+      "definition_en": "Each chosen direction has three tasks of its own.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 462
+      },
+      "lineage": {
+        "kind": "WAY_SPLIT",
+        "historical_system_number": 23
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M026",
+      "number": 26,
+      "group_id": "G03",
+      "name": "Six Background Tasks",
+      "name_en": "Six Background Tasks",
+      "definition_ru": "общий пул из шести фоновых задач.",
+      "definition_en": "A shared pool of six background tasks.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 463
+      },
+      "lineage": {
+        "kind": "WAY_SPLIT",
+        "historical_system_number": 23
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M027",
+      "number": 27,
+      "group_id": "G03",
+      "name": "System-Proposed Three MAIN",
+      "name_en": "System-Proposed Three MAIN",
+      "definition_ru": "система предлагает три основные задачи для принятия или замены.",
+      "definition_en": "The system proposes three MAIN tasks for acceptance or replacement.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 464
+      },
+      "lineage": {
+        "kind": "WAY_SPLIT",
+        "historical_system_number": 23
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M028",
+      "number": 28,
+      "group_id": "G03",
+      "name": "Direction Completion & Focus Rotation",
+      "name_en": "Direction Completion & Focus Rotation",
+      "definition_ru": "DONE освобождает слот; 3/3 завершённых задач закрывают направление и открывают выбор нового.",
+      "definition_en": "DONE frees a slot; completing 3/3 tasks closes a direction and opens the choice of a new one.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 465
+      },
+      "lineage": {
+        "kind": "WAY_SPLIT",
+        "historical_system_number": 23
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M029",
+      "number": 29,
+      "group_id": "G03",
+      "name": "Group Quest / Common Goal",
+      "name_en": "Group Quest / Common Goal",
+      "definition_ru": "общая задача нескольких участников с ролями, согласием и критерием результата.",
+      "definition_en": "A shared task for several participants, with roles, consent and a result criterion.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 466
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 24
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M030",
+      "number": 30,
+      "group_id": "G03",
+      "name": "Available Information",
+      "name_en": "Available Information",
+      "definition_ru": "действие на доступных данных без выдумывания пробелов.",
+      "definition_en": "Acting on available data without inventing what is missing.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 467
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 25
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M031",
+      "number": 31,
+      "group_id": "G03",
+      "name": "Tracking",
+      "name_en": "Tracking",
+      "definition_ru": "фиксация состояния, действия, результата и следующего шага.",
+      "definition_en": "Recording state, action, result and the next step.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 468
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 26
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M032",
+      "number": 32,
+      "group_id": "G03",
+      "name": "Guiding",
+      "name_en": "Guiding",
+      "definition_ru": "предложение понятного следующего шага при сохранении выбора человека.",
+      "definition_en": "Proposing a clear next step while preserving the person's choice.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 469
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 27
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M033",
+      "number": 33,
+      "group_id": "G03",
+      "name": "Routing",
+      "name_en": "Routing",
+      "definition_ru": "направление задачи подходящему человеку, системе или инструменту.",
+      "definition_en": "Directing a task to the appropriate person, system or tool.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 470
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 28
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M034",
+      "number": 34,
+      "group_id": "G03",
+      "name": "Pattern Engine",
+      "name_en": "Pattern Engine",
+      "definition_ru": "поиск повторяемых структур из частных случаев.",
+      "definition_en": "Finding repeatable structures in individual cases.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 471
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 29
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M035",
+      "number": 35,
+      "group_id": "G03",
+      "name": "Creative Thinking",
+      "name_en": "Creative Thinking",
+      "definition_ru": "создание и проверка новых связей между идеями.",
+      "definition_en": "Creating and testing new connections between ideas.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 472
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 30
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M036",
+      "number": 36,
+      "group_id": "G03",
+      "name": "Reality Acceptance Test",
+      "name_en": "Reality Acceptance Test",
+      "definition_ru": "результат существует, когда наблюдается изменение вне рассказа AI.",
+      "definition_en": "A result exists when a change is observable outside the AI's narrative.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 473
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 31
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M037",
+      "number": 37,
+      "group_id": "G04",
+      "name": "Handshake",
+      "name_en": "Handshake",
+      "definition_ru": "согласование участников, цели, условий, границ и завершения.",
+      "definition_en": "Agreeing participants, purpose, terms, boundaries and completion.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 477
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 32
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M038",
+      "number": 38,
+      "group_id": "G04",
+      "name": "Direct Contact",
+      "name_en": "Direct Contact",
+      "definition_ru": "связь сторон без обязательного центрального посредника.",
+      "definition_en": "Connecting parties without a mandatory central intermediary.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 478
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 33
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M039",
+      "number": 39,
+      "group_id": "G04",
+      "name": "Contract",
+      "name_en": "Contract",
+      "definition_ru": "понятная фиксация обязательств и критериев выполнения.",
+      "definition_en": "Clearly recording obligations and completion criteria.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 479
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 34
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M040",
+      "number": 40,
+      "group_id": "G04",
+      "name": "Contract Co-Authorship",
+      "name_en": "Contract Co-Authorship",
+      "definition_ru": "совместное улучшение условий всеми сторонами.",
+      "definition_en": "Jointly improving terms with all parties.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 480
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 35
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M041",
+      "number": 41,
+      "group_id": "G04",
+      "name": "Access Control",
+      "name_en": "Access Control",
+      "definition_ru": "точное определение доступа к ресурсу или действию.",
+      "definition_en": "Precisely defining access to a resource or action.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 481
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 36
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M042",
+      "number": 42,
+      "group_id": "G04",
+      "name": "Financial Transaction",
+      "name_en": "Financial Transaction",
+      "definition_ru": "согласование, проведение и подтверждение оплаты.",
+      "definition_en": "Agreeing, executing and confirming payment.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 482
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 37
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M043",
+      "number": 43,
+      "group_id": "G04",
+      "name": "Revenue Sharing",
+      "name_en": "Revenue Sharing",
+      "definition_ru": "распределение подтверждённого дохода по формуле.",
+      "definition_en": "Allocating confirmed revenue according to a formula.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 483
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 38
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M044",
+      "number": 44,
+      "group_id": "G04",
+      "name": "Content Sharing",
+      "name_en": "Content Sharing",
+      "definition_ru": "передача, использование или публикация выбранного контента.",
+      "definition_en": "Transferring, using or publishing selected content.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 484
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 39
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M045",
+      "number": 45,
+      "group_id": "G04",
+      "name": "Permission Sharing",
+      "name_en": "Permission Sharing",
+      "definition_ru": "выдача ограниченного права на действие, данные или ресурс.",
+      "definition_en": "Granting limited permission for an action, data or a resource.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 485
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 40
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M046",
+      "number": 46,
+      "group_id": "G04",
+      "name": "Personal Information Sharing",
+      "name_en": "Personal Information Sharing",
+      "definition_ru": "отдельное разрешение на минимальный набор личных данных.",
+      "definition_en": "Separate permission for a minimal set of personal data.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 486
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 41
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M047",
+      "number": 47,
+      "group_id": "G04",
+      "name": "Permission Revocation",
+      "name_en": "Permission Revocation",
+      "definition_ru": "отзыв разрешения с фиксацией результата.",
+      "definition_en": "Revoking permission and recording the outcome.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 487
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 42
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M048",
+      "number": 48,
+      "group_id": "G04",
+      "name": "Decentralized Connection",
+      "name_en": "Decentralized Connection",
+      "definition_ru": "подключение независимой системы на условиях владельца.",
+      "definition_en": "Connecting an independent system on the owner's terms.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 488
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 43
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M049",
+      "number": 49,
+      "group_id": "G04",
+      "name": "Multip1ayer",
+      "name_en": "Multip1ayer",
+      "definition_ru": "совместное действие нескольких людей и систем с раздельным состоянием.",
+      "definition_en": "Joint action by several people and systems with separate states.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 489
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 44
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M050",
+      "number": 50,
+      "group_id": "G04",
+      "name": "Three-Confirmation Validation",
+      "name_en": "Three-Confirmation Validation",
+      "definition_ru": "подтверждение участником, получателем и проверяющей стороной.",
+      "definition_en": "Confirmation by the participant, recipient and verifying party.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 490
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 45
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M051",
+      "number": 51,
+      "group_id": "G05",
+      "name": "Evidence Ledger",
+      "name_en": "Evidence Ledger",
+      "definition_ru": "связь утверждения с доступным доказательством.",
+      "definition_en": "Linking a claim to available evidence.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 494
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 46
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M052",
+      "number": 52,
+      "group_id": "G05",
+      "name": "Score and Levels",
+      "name_en": "Score and Levels",
+      "definition_ru": "прогресс за подтверждённые действия и влияние.",
+      "definition_en": "Progress through verified actions and impact.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 495
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 47
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M053",
+      "number": 53,
+      "group_id": "G05",
+      "name": "Reputation",
+      "name_en": "Reputation",
+      "definition_ru": "история результата, надёжности, помощи и качества проверки.",
+      "definition_en": "A history of results, reliability, help and verification quality.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 496
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 48
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M054",
+      "number": 54,
+      "group_id": "G05",
+      "name": "Pay It Forward",
+      "name_en": "Pay It Forward",
+      "definition_ru": "превращение полученной пользы во вклад для следующего человека.",
+      "definition_en": "Turning received benefit into a contribution for the next person.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 497
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 49
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M055",
+      "number": 55,
+      "group_id": "G06",
+      "name": "Short First",
+      "name_en": "Short First",
+      "definition_ru": "сначала главная мысль и минимальный набор необходимого.",
+      "definition_en": "Start with the main point and the minimum necessary information.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 501
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 50
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M056",
+      "number": 56,
+      "group_id": "G06",
+      "name": "Binary Expansion Gate",
+      "name_en": "Binary Expansion Gate",
+      "definition_ru": "подробности раскрываются только по явному «Да» на вопрос «Развернуть?».",
+      "definition_en": "Details are disclosed only after an explicit Yes to the question Expand?",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 502
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 51
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M057",
+      "number": 57,
+      "group_id": "G06",
+      "name": "Progressive Disclosure",
+      "name_en": "Progressive Disclosure",
+      "definition_ru": "подробный слой развивает тот же ответ, а не начинает разговор заново.",
+      "definition_en": "The detailed layer develops the same answer rather than restarting the conversation.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 503
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 52
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M058",
+      "number": 58,
+      "group_id": "G06",
+      "name": "Double-Yes Significance Commit",
+      "name_en": "Double-Yes Significance Commit",
+      "definition_ru": "второе «Да» фиксирует развёрнутый текст как значимую запись.",
+      "definition_en": "A second Yes records the expanded text as a significant entry.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 504
+      },
+      "lineage": {
+        "kind": "RETAINED_FROM_53",
+        "historical_system_number": 53
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M059",
+      "number": 59,
+      "group_id": "G06",
+      "name": "Response Mode Router",
+      "name_en": "Response Mode Router",
+      "definition_ru": "выбор правильного режима: объяснение, меню выбора или открытый вопрос.",
+      "definition_en": "Choosing the correct mode: explanation, choice menu or open question.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 505
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M060",
+      "number": 60,
+      "group_id": "G06",
+      "name": "Repetition Significance",
+      "name_en": "Repetition Significance",
+      "definition_ru": "добровольный подробный повтор отмечает мысль как значимую.",
+      "definition_en": "A voluntary detailed repetition marks a thought as significant.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 506
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M061",
+      "number": 61,
+      "group_id": "G07",
+      "name": "Business Profile & Progression",
+      "name_en": "Business Profile & Progression",
+      "definition_ru": "отдельный бизнес-профиль, уровни проектов и BUSINESS TOTAL.",
+      "definition_en": "A separate business profile, project levels and BUSINESS TOTAL.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 510
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M062",
+      "number": 62,
+      "group_id": "G07",
+      "name": "ART / ЭСТЕТ1КА Profile & Progression",
+      "name_en": "ART / AESTHETICS Profile & Progression",
+      "definition_ru": "отдельный творческий контур с ART0 и подтверждёнными ART-наградами.",
+      "definition_en": "A separate creative contour with ART0 and verified ART awards.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 511
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M063",
+      "number": 63,
+      "group_id": "G07",
+      "name": "Multi-Contour Separation",
+      "name_en": "Multi-Contour Separation",
+      "definition_ru": "PERSONAL/WORLD, BUSINESS и ART не складываются и не переносят баллы друг другу.",
+      "definition_en": "PERSONAL/WORLD, BUSINESS and ART are not added together and do not transfer points to one another.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 512
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M064",
+      "number": 64,
+      "group_id": "G07",
+      "name": "Evidence-Gated Tier Classifier",
+      "name_en": "Evidence-Gated Tier Classifier",
+      "definition_ru": "допуск к награде и Tier I/II/III через evidence, verifier, Scope, Verification, Durability и Impact.",
+      "definition_en": "Award eligibility and Tier I/II/III through evidence, a verifier, Scope, Verification, Durability and Impact.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 513
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M065",
+      "number": 65,
+      "group_id": "G07",
+      "name": "Legacy Progression & Reclassification",
+      "name_en": "Legacy Progression & Reclassification",
+      "definition_ru": "старая шкала хранится отдельно; пересчёт возможен только явной процедурой.",
+      "definition_en": "The old scale is stored separately; recalculation requires an explicit procedure.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 514
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M066",
+      "number": 66,
+      "group_id": "G07",
+      "name": "Reward Deduplication",
+      "name_en": "Reward Deduplication",
+      "definition_ru": "один причинный результат приносит одну награду.",
+      "definition_en": "One causal result earns one award.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 515
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M067",
+      "number": 67,
+      "group_id": "G07",
+      "name": "Profile Visibility Projections",
+      "name_en": "Profile Visibility Projections",
+      "definition_ru": "PRIVATE, INCOGNITO, PARTIAL и FULL.",
+      "definition_en": "PRIVATE, INCOGNITO, PARTIAL and FULL.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 516
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M068",
+      "number": 68,
+      "group_id": "G07",
+      "name": "Delivery Status Pipeline",
+      "name_en": "Delivery Status Pipeline",
+      "definition_ru": "`PROPOSED → PREPARED → PREPARED_NOT_SENT → SENT → RECEIVED → ACCEPTED → IMPLEMENTED → VERIFIED`.",
+      "definition_en": "`PROPOSED → PREPARED → PREPARED_NOT_SENT → SENT → RECEIVED → ACCEPTED → IMPLEMENTED → VERIFIED`.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 517
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M069",
+      "number": 69,
+      "group_id": "G07",
+      "name": "Pause / Resume Control",
+      "name_en": "Pause / Resume Control",
+      "definition_ru": "STOP, сохранение PAUSED при импорте и отдельное явное возобновление.",
+      "definition_en": "STOP, preserving PAUSED on import, and a separate explicit resumption.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 518
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M070",
+      "number": 70,
+      "group_id": "G07",
+      "name": "Selective SAVE & Private BACKUP",
+      "name_en": "Selective SAVE & Private BACKUP",
+      "definition_ru": "выборочный перенос состояния и полный приватный снимок.",
+      "definition_en": "Selective state transfer and a complete private snapshot.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 519
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M071",
+      "number": 71,
+      "group_id": "G07",
+      "name": "Safety State",
+      "name_en": "Safety State",
+      "definition_ru": "`UNKNOWN`, `ANALYZE`, `PAUSED`.",
+      "definition_en": "`UNKNOWN`, `ANALYZE`, `PAUSED`.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 520
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M072",
+      "number": 72,
+      "group_id": "G07",
+      "name": "Scope Control",
+      "name_en": "Scope Control",
+      "definition_ru": "запрет самовольно раздувать узкую задачу в большой проект.",
+      "definition_en": "A prohibition on turning a narrow task into a large project without authorization.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 521
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M073",
+      "number": 73,
+      "group_id": "G08",
+      "name": "Release Block & Review Escalation",
+      "name_en": "Release Block & Review Escalation",
+      "definition_ru": "блокировка критичного дефекта, варианты снятия блока и независимые reviewers.",
+      "definition_en": "Blocking a critical defect, routes to resolve the block, and independent reviewers.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 525
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M074",
+      "number": 74,
+      "group_id": "G08",
+      "name": "Governance & Decision Records",
+      "name_en": "Governance & Decision Records",
+      "definition_ru": "роли, границы полномочий, правила решений и критерии приёмки.",
+      "definition_en": "Roles, authority boundaries, decision rules and acceptance criteria.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 526
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M075",
+      "number": 75,
+      "group_id": "G08",
+      "name": "Onboarding Routes",
+      "name_en": "Onboarding Routes",
+      "definition_ru": "попробовать без профиля, создать профиль или продолжить через SAVE.",
+      "definition_en": "Try without a profile, create a profile, or continue through SAVE.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 527
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M076",
+      "number": 76,
+      "group_id": "G08",
+      "name": "Registry Identity",
+      "name_en": "Registry Identity",
+      "definition_ru": "глобальный ID только через реестр и проверку дублей; иначе `UNKNOWN`.",
+      "definition_en": "A global ID only through a registry and duplicate check; otherwise UNKNOWN.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 528
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    },
+    {
+      "id": "M077",
+      "number": 77,
+      "group_id": "G08",
+      "name": "Brand Presentation System",
+      "name_en": "Brand Presentation System",
+      "definition_ru": "дизайн-код Маслова, DARK SIDE, палитра, знак и правила отображения.",
+      "definition_en": "The Maslov design code, DARK SIDE, palette, mark and presentation rules.",
+      "source": {
+        "original_file_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+        "line": 529
+      },
+      "lineage": {
+        "kind": "ADDED_MAJOR_MECHANISM",
+        "historical_system_number": null
+      },
+      "definition_status": "SOURCE_RECOVERED",
+      "external_runtime_validation": "NOT_CLAIMED"
+    }
+  ]
+}

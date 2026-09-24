@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:p1ay:selective-save:1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "owner",
+    "status",
+    "records",
+    "full_player_included",
+    "scope",
+    "consent"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "P1AY_SELECTIVE_SAVE_02"
+    },
+    "owner": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "PROPOSED",
+        "PREPARED_NOT_SENT",
+        "SENT",
+        "REVOKED"
+      ]
+    },
+    "records": {
+      "type": "array"
+    },
+    "full_player_included": {
+      "const": false
+    },
+    "scope": {
+      "type": "array"
+    },
+    "consent": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "NOT_GRANTED",
+            "GRANTED",
+            "REVOKED"
+          ]
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

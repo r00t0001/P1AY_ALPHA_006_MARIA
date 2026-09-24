@@ -1,0 +1,54 @@
+{
+  "project": "P1AY",
+  "display_name": "P1▶Y · ALPHA_007 · JULIA · 0.7.2 · R3",
+  "version": "0.7.2",
+  "release": "ALPHA_007",
+  "build": "007",
+  "number": 7,
+  "codename": "Джулия",
+  "codename_en": "JULIA",
+  "previous_release": {
+    "release": "ALPHA_007",
+    "version": "007.1",
+    "sha256": "c3709ad53ae18fd474737c32f9315ee3c67989a8afe19c35c1f83569860fa11d"
+  },
+  "previous_public_release": {
+    "release": "ALPHA_006",
+    "codename_en": "MARIA",
+    "internal_build": "V5"
+  },
+  "status": "prerelease",
+  "prerelease": {
+    "number": 2,
+    "label": "0.7.2",
+    "target": "Portable AI chat / RU + EN"
+  },
+  "license": "MIT",
+  "languages": [
+    "ru",
+    "en"
+  ],
+  "external_validation": "NOT_RUN_FOR_0_7_2_HASH",
+  "github_repository_status": "NOT_PUBLISHED_BY_THIS_BUILD",
+  "working_copy_status": "REBUILT_CANDIDATE",
+  "release_date": "2026-09-24",
+  "planned_release_date": null,
+  "repository_owner": "r00t0001",
+  "repository_name": "P1AY_ALPHA_007_JULIA",
+  "repository_url": null,
+  "technical_address": "p1ay.one",
+  "product_map": {
+    "prior_declared_mechanisms": 77,
+    "enumerated_mechanisms_verified": 77,
+    "status": "SOURCE_DEFINITIONS_RECOVERED",
+    "historical_superseded_systems": 53,
+    "current_authority": "canon/CORE_MASTER.json#mechanism_registry",
+    "prior_approved_count": 77,
+    "count_is_current_release_gate": true
+  },
+  "runtime_scope": "INCLUDED_IN_PRIVATE_CLAUDE_EXPORT",
+  "decision_source": "Direct owner instruction to audit and rebuild 0.7.2, 2026-09-24",
+  "artifact_revision": 3,
+  "build_id": "0.7.2-r3-architecture-foundation",
+  "supersedes_artifact_sha256": "e8fd3065b301904bfb89267193f06a3bd1bf442d150982a14263b2f4230a7cf4"
+}

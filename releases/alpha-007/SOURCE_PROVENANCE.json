@@ -1,0 +1,70 @@
+{
+  "schema_version": "P1AY_SOURCE_PROVENANCE_02",
+  "version": "0.7.2",
+  "build_source": "canon/CORE_MASTER.json",
+  "source_cutoff": "2026-09-24",
+  "coverage": "DECLARED_ACCESSIBLE_SOURCES_ONLY_NOT_ALL_LOCAL_MAC_FILES",
+  "sources": [
+    {
+      "id": "BASE_007_1",
+      "kind": "exact_uploaded_archive",
+      "sha256": "c3709ad53ae18fd474737c32f9315ee3c67989a8afe19c35c1f83569860fa11d",
+      "date": "2026-09-24",
+      "public_bytes_included": false,
+      "role": "preserved protocol and tools"
+    },
+    {
+      "id": "PHONE_2026_09_19",
+      "kind": "private_reconstructed_snapshot",
+      "sha256": "63535f1cfdc229b89068ee72ddf039fb119c03f0e361cbf412bfbda6df98fc79",
+      "public_bytes_included": false,
+      "role": "selected shared-rule extracts only"
+    },
+    {
+      "id": "ARCHITECT_2026_09_21",
+      "kind": "private_reconstructed_snapshot",
+      "sha256": "da5474467f83810d1fc6857f668e226fd7d9581030614266b2ff45ea2b204749",
+      "public_bytes_included": false,
+      "role": "selected shared-rule extracts only"
+    },
+    {
+      "id": "OWNER_2026_09_24",
+      "kind": "current_conversation_direct_instruction",
+      "public_bytes_included": false,
+      "role": "release approval request, communication and boundary correction; private anecdotes excluded"
+    },
+    {
+      "id": "COMPACT_CORE_2026_09_23",
+      "kind": "connected_project_core_read",
+      "public_bytes_included": false,
+      "role": "preserve project vs personal authority; unavailable runtime excluded"
+    },
+    {
+      "id": "OWNER_PROVIDED_MECHANISMS_77_TRANSCRIPT",
+      "kind": "uploaded_conversation_copy",
+      "sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
+      "registry_lines": [
+        428,
+        529
+      ],
+      "approval_line": 414,
+      "correction_lines": [
+        560,
+        569
+      ],
+      "date": "UNSPECIFIED_FRIDAY_IN_SOURCE",
+      "public_bytes_included": "SELECTED_PRODUCT_EXCERPTS_ONLY",
+      "role": "original approved grouped list and explicit SAVE correction"
+    },
+    {
+      "id": "PREVIOUS_0_7_2_ARTIFACT",
+      "kind": "exact_archive",
+      "sha256": "e8fd3065b301904bfb89267193f06a3bd1bf442d150982a14263b2f4230a7cf4",
+      "role": "preserved newer operational rules and verification tools"
+    }
+  ],
+  "reconciliation": "canon/RECONCILIATION.json",
+  "original_external_source_hashes_status": "NOT_REVALIDATED_AGAINST_PRIVATE_MASTER",
+  "full_computer_merge": "NOT_EXECUTED_IN_THIS_ENVIRONMENT",
+  "artifact_revision": 3
+}

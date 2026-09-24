@@ -1,0 +1,1 @@
+{"name":"p1ay-local-sync","version":"0.1.0","status":"LOCAL_CANDIDATE_NOT_PUBLISHED","sync_protocol":"P1AY_SYNC_EVENT_01","save_schemas":["P1AY_SAVE_02","P1AY_SAVE_03","P1AY_SAVE_04"],"migration":"LOSSLESS_ENVELOPE_REVIEW_REQUIRED","real_phone_round_trip":"PENDING_PEER_ENROLLMENT","public_release":false}

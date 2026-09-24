@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:p1ay:conflict:1",
+  "type": "object",
+  "required": [
+    "conflict_id",
+    "owner_id",
+    "event_id",
+    "reason",
+    "base_version",
+    "local_version",
+    "status",
+    "created_at"
+  ],
+  "properties": {
+    "conflict_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "base_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "local_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "OPEN",
+        "RESOLVED"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,1 @@
+Load the attached CORE.txt version 0.7.2 after actually reading it. Do not replace my existing SAVE with an empty template; preserve PAUSED, permissions, conflicts, history and chosen tasks. Confirm the version and reading limits without claiming installed software or permanent memory. Then carry out my current task.
