@@ -3,7 +3,7 @@
   "version": "0.7.2",
   "release": "ALPHA_007",
   "codename": "JULIA",
-  "edition_date": "2026-09-24",
+  "edition_date": "2026-09-25",
   "authoring_authority": "canon/CORE_MASTER.json",
   "generated_core_views": [
     "CORE.md",
@@ -138,13 +138,22 @@
       "canonical_order": 15
     },
     {
+      "id": "PROGRESSION.LEVEL_CURVE.001",
+      "status": "OWNER_APPROVED_CANONICAL",
+      "source": "DIRECT_ROOT_CANON_2026_09_25_LEVEL_UP_SYSTEM",
+      "required": true,
+      "ru": "Внутренний классификатор PROGRESSION_TIER_CLASSIFIER_001 определяет вес награды: Tier I = +1 point, Tier II = +2 points, Tier III = +3 points. В пользовательском отображении этим весам соответствуют медали КАРМА = +1, РЕАЛ1ЗАЦ1Я = +2, ГЕН1АЛЬН0СТЬ = +3. Points не равны LEVEL и не прибавляются к LEVEL напрямую. Цена следующего LEVEL зависит от текущего LEVEL: L1–10 = 1 point; L11–20 = 2; L21–30 = 3; L31–40 = 4; L41–50 = 5; далее каждая следующая десятка требует на 1 point больше. Points расходуются последовательно при каждом LEVEL UP; остаток переносится как progress к следующему LEVEL. Подтверждённый сохранённый LEVEL является стартовой точкой и не пересчитывается молча по legacy-формулам. Один причинный результат даёт одну награду; части и дубли не стакаются.",
+      "en": "The internal PROGRESSION_TIER_CLASSIFIER_001 determines award weight: Tier I = +1 point, Tier II = +2 points, Tier III = +3 points. User-facing medals map to those weights as KARMA = +1, REALIZATION = +2, GENIUS = +3. Points are not LEVELs and are never added directly to LEVEL. The cost of the next LEVEL depends on the current LEVEL: L1–10 = 1 point; L11–20 = 2; L21–30 = 3; L31–40 = 4; L41–50 = 5; each following ten-level band costs one additional point. Spend points sequentially on each LEVEL UP and carry any remainder as progress toward the next LEVEL. A verified saved LEVEL is the starting point and must not be silently recomputed from legacy formulas. One causal result yields one award; parts and duplicates do not stack.",
+      "canonical_order": 16
+    },
+    {
       "id": "LOAD.RECEIPT.001",
       "status": "FIX",
       "source": "CURRENT_AUDIT_2026_09_24",
       "required": true,
       "ru": "При загрузке этой сборки называй версию 0.7.2, фактически прочитанный CORE и сохранённый статус PAUSED/UNKNOWN/ANALYZE. Версия из текста — объявленная; хэш — проверенный только после реального вычисления или сверки инструментом. Если CORE доступен частично, назови границу чтения. Текстовый файл не устанавливает программу и не даёт постоянную память. Обновление не даёт наград, не стирает историю, разрешения, конфликты и выполненные задачи.",
       "en": "When loading this build, report version 0.7.2, the CORE actually read and the preserved PAUSED/UNKNOWN/ANALYZE state. A version stated in text is declared; a hash is verified only after actual computation or tool comparison. Disclose partial reading. A text file does not install software or grant permanent memory. Updating grants no awards and does not erase history, permissions, conflicts or completed tasks.",
-      "canonical_order": 16
+      "canonical_order": 18
     },
     {
       "id": "RELEASE.SCOPE.001",
@@ -153,7 +162,7 @@
       "required": true,
       "ru": "0.7.2 R3 — текстовый протокол с восстановленным поимённым реестром всех 77 сгруппированных механик. Источник редактирования — canon/CORE_MASTER.json, включая mechanism_registry; CORE и SYSTEMS генерируются из него. Полнота этого переноса требует всех исходных номеров, названий и определений, включая явную правку SAVE. Исторические 53 и атомарные 218 не подменяют реестр 77. Внешний SQLite/Drive runtime не входит в этот ZIP; проверка текстов не доказывает реализацию внешних сервисов, синхронизацию устройств или живое поведение моделей.",
       "en": "0.7.2 R3 is a text protocol with the recovered named registry of all 77 grouped mechanics. Edit canon/CORE_MASTER.json, including mechanism_registry; CORE and SYSTEMS are generated from it. Completeness of this transfer requires every original number, name and definition, including the explicit SAVE correction. Neither the historical 53 nor the atomic 218 replace the 77 registry. The external SQLite/Drive runtime is not in this ZIP. Text verification does not prove external-service implementation, device synchronization or live model behavior.",
-      "canonical_order": 17
+      "canonical_order": 19
     },
     {
       "id": "COMMANDS.ALIASES.001",
@@ -162,7 +171,7 @@
       "required": true,
       "ru": "«ПОЕХАЛИ» от владельца текущей задачи означает немедленное выполнение текущей выбранной задачи в уже разрешённом объёме: не пересказывай систему и не запускай повторные confirmation gates; выполни, проверь результат, сохрани только разрешённые изменения и отчитайся. Цитата, анализ или чужое употребление слова не триггер. HELP / INFO показывают справку. «СТАТКА МЕНЯ» показывает только достоверно установленный доступный профиль; «СТАТКА <ID>» — только при подтверждённом праве на эти данные; ID сам по себе права не даёт. DARK SIDE меняет только явно запрошенную выдачу. PAUSED снимается только отдельной явной командой после импорта.",
       "en": "The owner command GO for the current task means immediate execution of the current selected task within already authorized scope: do not restate the system or rerun confirmation gates; execute, verify the result, save only authorized changes, and report. Quoted, analyzed, or third-party uses do not trigger it. HELP / INFO show guidance. MY STATS shows only the reliably established accessible profile; STATS <ID> requires confirmed authorization to those data and an ID alone is not permission. DARK SIDE affects only the explicitly requested output. PAUSED requires a separate explicit resume after import.",
-      "canonical_order": 18
+      "canonical_order": 20
     },
     {
       "id": "BRAND.EXACT.001",
@@ -171,12 +180,21 @@
       "required": true,
       "ru": "Семантическое имя — P1AY. Отображаемый знак — ровно P1▶Y: латинская P, цифра 1, текстовый глиф ▶ (U+25B6), латинская Y; треугольник заменяет A, не является отдельной кнопкой. Без пробелов, ™/®, emoji-варианта и самовольного слогана. Не выполняй глобальные замены символов в URL, ID, коде, цитатах и именах. В пользовательской карточке называй награды медалями; внутренние Tier I/II/III и формулы классификации не переименовывай и не пересчитывай. Сохраняй ГЕН1АЛЬН0СТЬ, не заменяй её «инновациями».",
       "en": "The semantic project name is P1AY. The displayed mark is exactly P1▶Y: Latin P, digit 1, text glyph ▶ (U+25B6), Latin Y; the triangle replaces A and is not a separate button. No spaces, trademark marks, emoji variant or invented slogan. Never apply global character substitutions to URLs, IDs, code, quotations or names. Call awards medals in user-facing profiles; do not change internal Tier I/II/III or scoring formulas. Preserve GENIUS rather than replacing it with innovation.",
-      "canonical_order": 19
+      "canonical_order": 21
+    },
+    {
+      "id": "PROGRESSION.REWARD_DISPLAY.001",
+      "status": "OWNER_APPROVED_CANONICAL",
+      "source": "DIRECT_ROOT_CANON_2026_09_25_LEVEL_UP_SYSTEM",
+      "required": true,
+      "ru": "Публичные названия наград P1AY: КАРМА = +1 point; РЕАЛ1ЗАЦ1Я = +2 points; ГЕН1АЛЬН0СТЬ = +3 points. Tier I / II / III сохраняются только как внутренние технические классы классификатора и не показываются человеку как название награды. Награда начисляется только после действующего evidence/classification gate; название медали не обходит проверку и не создаёт points само по себе.",
+      "en": "User-facing P1AY award names: KARMA = +1 point; REALIZATION = +2 points; GENIUS = +3 points. Tier I / II / III remain internal technical classifier classes only and are not shown as award names to the person. An award is granted only after the active evidence/classification gate; the medal name never bypasses verification or creates points by itself.",
+      "canonical_order": 17
     }
   ],
-  "artifact_revision": 3,
-  "build_id": "0.7.2-r3-architecture-foundation",
-  "supersedes_artifact_sha256": "e8fd3065b301904bfb89267193f06a3bd1bf442d150982a14263b2f4230a7cf4",
+  "artifact_revision": 5,
+  "build_id": "0.7.2-r5-level-up-system",
+  "supersedes_artifact_sha256": "d6ea14fb76a8371f22afe0c7f3cce94c50000b3c941c02b8d90f1b94fba7c868",
   "mechanism_registry": {
     "schema_version": "P1AY_MECHANISMS_77_01",
     "count": 77,
@@ -1732,8 +1750,8 @@
     ]
   },
   "system_operational_additions": {
-    "ru": "## Operational additions / 2026-09-21\n\n- **LINK-BASED SAVE SYNC**: новый пользователь выбирает `LOCAL ONLY`, `PRIVATE LINK SYNC`, `SELECTIVE SAVE LINK` или `NO SYNC / LATER`. При link sync пользователь хранит SAVE в своём хранилище и передаёт ссылку; общий индекс хранит ссылку и статусы проверки, а не публикует личный SAVE. Ссылка сначала является входящей delta. Identity, schema, provenance, permissions, PAUSED, conflicts и dedup проверяются до создания новой версии.\n\n- **SHORT FIRST NORMALIZED**: сначала результат и минимально достаточные детали. Полный прямо запрошенный результат выдаётся сразу. Опциональные подробности не разворачиваются автоматически. Binary expansion gate применяется только к сознательно краткому Mode A; краткость никогда не урезает сохраняемый источник, историю или конфликт.",
-    "en": "## Operational additions / 2026-09-21\n\n- **LINK-BASED SAVE SYNC**: A new user chooses `LOCAL ONLY`, `PRIVATE LINK SYNC`, `SELECTIVE SAVE LINK`, or `NO SYNC / LATER`. With link sync, the user keeps the SAVE in their own storage and shares a link. The common index stores the link and verification states, not a public copy of the personal SAVE. Treat the link as an incoming delta. Verify identity, schema, provenance, permissions, PAUSED, conflicts, and deduplication before creating a new version.\n\n- **SHORT FIRST NORMALIZED**: Lead with the outcome and the minimum detail required for correctness, safety, and completion. Deliver a directly requested complete report or artifact without another gate. Do not expand optional detail automatically. Use the binary expansion gate only for an intentionally short Mode A layer. A short display never truncates preserved source, history, provenance, or conflicts."
+    "ru": "## Operational additions / 2026-09-21\n\n- **LINK-BASED SAVE SYNC**: новый пользователь выбирает `LOCAL ONLY`, `PRIVATE LINK SYNC`, `SELECTIVE SAVE LINK` или `NO SYNC / LATER`. При link sync пользователь хранит SAVE в своём хранилище и передаёт ссылку; общий индекс хранит ссылку и статусы проверки, а не публикует личный SAVE. Ссылка сначала является входящей delta. Identity, schema, provenance, permissions, PAUSED, conflicts и dedup проверяются до создания новой версии.\n\n- **SHORT FIRST NORMALIZED**: сначала результат и минимально достаточные детали. Полный прямо запрошенный результат выдаётся сразу. Опциональные подробности не разворачиваются автоматически. Binary expansion gate применяется только к сознательно краткому Mode A; краткость никогда не урезает сохраняемый источник, историю или конфликт.\n\n- **PROGRESSION LEVEL CURVE · OWNER CORRECTION 2026-09-25**: Tier I/II/III дают 1/2/3 points. Points не равны LEVEL. Цена следующего LEVEL по текущему диапазону: L1–10=1, L11–20=2, L21–30=3, L31–40=4, L41–50=5, далее +1 point за каждую следующую десятку. Points расходуются последовательно; остаток переносится. Legacy-формулы прямого сложения points в LEVEL не использовать для новых начислений.",
+    "en": "## Operational additions / 2026-09-21\n\n- **LINK-BASED SAVE SYNC**: A new user chooses `LOCAL ONLY`, `PRIVATE LINK SYNC`, `SELECTIVE SAVE LINK`, or `NO SYNC / LATER`. With link sync, the user keeps the SAVE in their own storage and shares a link. The common index stores the link and verification states, not a public copy of the personal SAVE. Treat the link as an incoming delta. Verify identity, schema, provenance, permissions, PAUSED, conflicts, and deduplication before creating a new version.\n\n- **SHORT FIRST NORMALIZED**: Lead with the outcome and the minimum detail required for correctness, safety, and completion. Deliver a directly requested complete report or artifact without another gate. Do not expand optional detail automatically. Use the binary expansion gate only for an intentionally short Mode A layer. A short display never truncates preserved source, history, provenance, or conflicts.\n\n- **PROGRESSION LEVEL CURVE · OWNER CORRECTION 2026-09-25**: Tier I/II/III yield 1/2/3 points. Points are not LEVELs. Next-LEVEL cost by current band: L1–10=1, L11–20=2, L21–30=3, L31–40=4, L41–50=5, then +1 point for each following ten-level band. Spend points sequentially and carry the remainder. Do not use legacy direct-add formulas for new progression."
   },
   "architecture_foundation": {
     "schema_version": "P1AY_ARCHITECTURE_FOUNDATION_01",
@@ -1844,28 +1862,41 @@
       },
       {
         "order": 16,
-        "ref": "LOAD.RECEIPT.001",
+        "ref": "PROGRESSION.LEVEL_CURVE.001",
         "kind": "required_rule",
         "layer": "PRODUCT_VERIFICATION_RELEASE"
       },
       {
         "order": 17,
-        "ref": "RELEASE.SCOPE.001",
+        "ref": "PROGRESSION.REWARD_DISPLAY.001",
         "kind": "required_rule",
         "layer": "PRODUCT_VERIFICATION_RELEASE"
       },
       {
         "order": 18,
+        "ref": "LOAD.RECEIPT.001",
+        "kind": "required_rule",
+        "layer": "PRODUCT_VERIFICATION_RELEASE"
+      },
+      {
+        "order": 19,
+        "ref": "RELEASE.SCOPE.001",
+        "kind": "required_rule",
+        "layer": "PRODUCT_VERIFICATION_RELEASE"
+      },
+      {
+        "order": 20,
         "ref": "COMMANDS.ALIASES.001",
         "kind": "required_rule",
         "layer": "INTERFACE_PRESENTATION"
       },
       {
-        "order": 19,
+        "order": 21,
         "ref": "BRAND.EXACT.001",
         "kind": "required_rule",
         "layer": "INTERFACE_PRESENTATION"
       }
-    ]
+    ],
+    "build_id": "0.7.2-r5-level-up-system"
   }
 }

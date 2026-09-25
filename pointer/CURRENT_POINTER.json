@@ -4,17 +4,17 @@
   "version": "0.7.2",
   "release": "ALPHA_007",
   "codename": "JULIA",
-  "updated_at": "2026-09-25T00:00:00+07:00",
+  "updated_at": "2026-09-25T20:01:00+07:00",
   "authority": {
     "shared_protocol_source": {
       "drive_file_id": "19CJy5qku8dptUuKFBndcaLn3CyZoMYd7",
       "name": "CORE_MASTER.json",
-      "sha256": "d6ea14fb76a8371f22afe0c7f3cce94c50000b3c941c02b8d90f1b94fba7c868"
+      "sha256": "d021933ed149b66b3166b8488fffc3fee8583053549794cb3aa0382f5c552d53"
     },
     "generated_ru_core": {
       "drive_file_id": "1mHOLweYlHJBtX8Az-mgAIgKA86FgV7Lc",
       "name": "CORE.md",
-      "sha256": "ecf1c808aa176dddb5360b32248c4e77ddd4e4c51a3d404edf5ce5b5b15312c7"
+      "sha256": "e2a3943ae2ede2161012c144d2e47f31628a7dc00126fd79ba43be142b14994d"
     },
     "release_archive": {
       "drive_file_id": "1cNhhjmv76iESjSq4etCPrdcal3gcy10r",
@@ -38,10 +38,11 @@
     "PLAYER is private owner state and does not modify shared CORE unless an explicit canon decision is separately recorded.",
     "Older CORE/release files are provenance only unless this pointer is explicitly replaced by a newer verified pointer.",
     "All 77 original approved grouped mechanisms, names and definitions are required in the current source and generated CORE. Missing retrieval never downgrades this requirement. SAVE includes the explicit system-state correction.",
-    "External sync-runtime is a separate implementation layer and cannot silently override CORE or PLAYER."
+    "External sync-runtime is a separate implementation layer and cannot silently override CORE or PLAYER.",
+    "PROGRESSION.LEVEL_CURVE.001 is canonical: internal Tier I/II/III classify +1/+2/+3 points; user-facing medals are КАРМА/РЕАЛ1ЗАЦ1Я/ГЕН1АЛЬН0СТЬ; points convert to LEVEL through banded costs and remainder carries forward."
   ],
-  "artifact_revision": 3,
-  "build_id": "0.7.2-r3-architecture-foundation",
+  "artifact_revision": 5,
+  "build_id": "0.7.2-r5-level-up-system",
   "mechanism_registry": {
     "count": 77,
     "definition_source_sha256": "984efe1e5ac336492e29f67ae8130e1baccd41244fad608d89844f0ca9cf2729",
@@ -58,17 +59,16 @@
     "phone_receipt": "NOT_CLAIMED"
   },
   "supersedes": {
-    "previous_pointer_sha256": "549b1704ba3056ded21f57055d03fbadb254126f9a08258e8bf5e6ebd540a8ac",
-    "previous_archive_sha256": "de79376653935dda8fcf75c445bd28030f3a0da20023ce9f29c05217b6e37967",
-    "reason": "Canonicalize owner-approved P1AY Architecture Foundation order 1→19 while preserving all existing rule IDs and the recovered 77-mechanism registry.",
-    "rollback_drive_id": "1nLsHT4Pa084vEuxXn3tHSn1UJfbnTW4q"
+    "previous_pointer_sha256": "058432d110c61c4b037a1bdf7718906bfb28491cd0d0b52167fa6f4bf4e892d1",
+    "reason": "Canonicalize the complete LEVEL UP system: public medal names, internal classifier mapping, banded LEVEL costs, carry remainder, and no direct point-to-level addition.",
+    "previous_build_id": "0.7.2-r4-progression-curve"
   },
   "architecture_foundation": {
     "status": "OWNER_APPROVED_CANONICAL",
     "name": "P1AY ARCHITECTURE FOUNDATION",
-    "items": 19,
+    "items": 21,
     "rule_ids_renamed": false,
     "source": "CORE_MASTER.json#architecture_foundation",
-    "build_id": "0.7.2-r3-architecture-foundation"
+    "build_id": "0.7.2-r5-level-up-system"
   }
 }

@@ -2,7 +2,7 @@
   "schema_version": "P1AY_RELEASE_MANIFEST_02",
   "release": "ALPHA_007",
   "version": "0.7.2",
-  "artifact_revision": 3,
+  "artifact_revision": 5,
   "files": [
     {
       "path": "README.md",
@@ -71,8 +71,8 @@
     },
     {
       "path": "releases/alpha-007/release.json",
-      "bytes": 1715,
-      "sha256": "d5cc5a675d5601f59258214c7808e4ef0d167a1ec72a6c0a16b85e44c7ad19e9"
+      "bytes": 1716,
+      "sha256": "88428805397c00f7df07ca26bad7a1cf65d0b089c399b71f5fc067841d6c39e8"
     },
     {
       "path": "releases/alpha-007/VALIDATION.json",
@@ -86,8 +86,8 @@
     },
     {
       "path": "releases/alpha-007/locales/en/CORE.txt",
-      "bytes": 37462,
-      "sha256": "fe1462518d3d064ba67356d4742f48fb258d7caf38c9272d492b8a9f8aa8d416"
+      "bytes": 38692,
+      "sha256": "88ae5cab06fe5085a77b1d45d12b714a0fa09961e69785c575ca81d1509389b2"
     },
     {
       "path": "releases/alpha-007/locales/en/INFO.md",
@@ -106,8 +106,8 @@
     },
     {
       "path": "releases/alpha-007/locales/en/SYSTEMS.md",
-      "bytes": 8944,
-      "sha256": "b891da34185942b0b62e8404bb30fd2c52fa0b5ffbb61e23f74f1049b1e0a8dd"
+      "bytes": 9315,
+      "sha256": "f815983ec3e674e4d092e0f7a24a1f5f3a31691540c1fee36823429c4fd20240"
     },
     {
       "path": "releases/alpha-007/locales/en/SYSTEMS_53_LEGACY.md",
@@ -131,8 +131,8 @@
     },
     {
       "path": "releases/alpha-007/locales/ru/CORE.txt",
-      "bytes": 71263,
-      "sha256": "ecf1c808aa176dddb5360b32248c4e77ddd4e4c51a3d404edf5ce5b5b15312c7"
+      "bytes": 73230,
+      "sha256": "e8e20b57bea6ff2b55d81afa287e5efa3c24f81ec1d87ac2c210d2c460b3a0b0"
     },
     {
       "path": "releases/alpha-007/locales/ru/INFO.md",
@@ -151,8 +151,8 @@
     },
     {
       "path": "releases/alpha-007/locales/ru/SYSTEMS.md",
-      "bytes": 13176,
-      "sha256": "143a1cb51136a30a387217d227abf13b4e697bd6cd0ce3122e9b6b9471a9bdb8"
+      "bytes": 13757,
+      "sha256": "6c51cffd9e023795b9f0f414166ef8dd4c88e6deda9247d5d342aaef0c34fe5e"
     },
     {
       "path": "releases/alpha-007/locales/ru/SYSTEMS_53_LEGACY.md",
@@ -196,8 +196,8 @@
     },
     {
       "path": "tools/release_files.py",
-      "bytes": 3153,
-      "sha256": "ecddc48bb248ec151d68aedc39ed26776aa27bbefb7bd4a5bd01c7828fd72665"
+      "bytes": 3256,
+      "sha256": "a0692be6fe3a1e8fe2de82294ec505801a52e4ab15dd05845c067433f30108d9"
     },
     {
       "path": "tools/build_release.py",
@@ -206,8 +206,8 @@
     },
     {
       "path": "tools/verify_release.py",
-      "bytes": 17548,
-      "sha256": "3c20634c65ec140d1d257362a09f2a1388d6f5783dab4a2f30ad3890c9d57343"
+      "bytes": 17636,
+      "sha256": "80f7102b9d414168623fce2c43ef5f00f6e524d1c4e58d37350e3abbfa369a50"
     },
     {
       "path": "tools/validate_way_direction.py",
@@ -241,8 +241,8 @@
     },
     {
       "path": "CORE.md",
-      "bytes": 71263,
-      "sha256": "ecf1c808aa176dddb5360b32248c4e77ddd4e4c51a3d404edf5ce5b5b15312c7"
+      "bytes": 73230,
+      "sha256": "e8e20b57bea6ff2b55d81afa287e5efa3c24f81ec1d87ac2c210d2c460b3a0b0"
     },
     {
       "path": "MIGRATION_0_7_2.md",
@@ -251,13 +251,13 @@
     },
     {
       "path": "canon/CORE_MASTER.json",
-      "bytes": 158857,
-      "sha256": "d6ea14fb76a8371f22afe0c7f3cce94c50000b3c941c02b8d90f1b94fba7c868"
+      "bytes": 163610,
+      "sha256": "d021933ed149b66b3166b8488fffc3fee8583053549794cb3aa0382f5c552d53"
     },
     {
       "path": "canon/RECONCILIATION.json",
-      "bytes": 6818,
-      "sha256": "ff046a55aebb10f67b34e069c100b1cebbc7970b2d0b51bb1481781de483359f"
+      "bytes": 7299,
+      "sha256": "9e4c61f51bd21bc42a2e63003d54b91d2b4a9ae2c7576d6154d4de880afb789b"
     },
     {
       "path": "releases/alpha-007/PRODUCT_MAP_STATUS.json",
@@ -287,7 +287,7 @@
     {
       "path": "tools/test_mechanisms_77.py",
       "bytes": 8352,
-      "sha256": "9dd26e7d9bd9c29446c9a9c80835ae3e3c662f4eb2c4420fd222a10cda10b542"
+      "sha256": "9954e1d5da6453adabab9621aaa60e6cf39a7d80da1bec42cedfa0e1849dd8d2"
     },
     {
       "path": "canon/sources/MECHANISMS_77_ORIGINAL_RU.md",
@@ -326,8 +326,8 @@
     },
     {
       "path": "pointer/CURRENT_POINTER.json",
-      "bytes": 3585,
-      "sha256": "341e0bdf691c918957c2649a70de76dddfd34870bddf09c6785eddc4accf056e"
+      "bytes": 3732,
+      "sha256": "9f34dbe4c87026d7704be3b53f226221bac0878bc353c06b396cbbc651031bb0"
     },
     {
       "path": "compact_state/CORE.md",
@@ -341,8 +341,8 @@
     },
     {
       "path": "compact_state/SYNC.json",
-      "bytes": 755,
-      "sha256": "0b56442f30f93840150506c17954c0c69048d9f15993624483c05883f8ce89c8"
+      "bytes": 743,
+      "sha256": "55c38765b7371698316f0f1fd8c7c8f8ff7daebfe95919668417496341606399"
     },
     {
       "path": "runtime/.gitignore",

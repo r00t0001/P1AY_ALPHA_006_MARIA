@@ -1,6 +1,6 @@
 {
   "project": "P1AY",
-  "display_name": "P1▶Y · ALPHA_007 · JULIA · 0.7.2 · R3",
+  "display_name": "P1▶Y · ALPHA_007 · JULIA · 0.7.2 · R5",
   "version": "0.7.2",
   "release": "ALPHA_007",
   "build": "007",
@@ -47,8 +47,8 @@
     "count_is_current_release_gate": true
   },
   "runtime_scope": "INCLUDED_IN_PRIVATE_CLAUDE_EXPORT",
-  "decision_source": "Direct owner instruction to audit and rebuild 0.7.2, 2026-09-24",
-  "artifact_revision": 3,
-  "build_id": "0.7.2-r3-architecture-foundation",
-  "supersedes_artifact_sha256": "e8fd3065b301904bfb89267193f06a3bd1bf442d150982a14263b2f4230a7cf4"
+  "decision_source": "Direct owner instruction to canonicalize the LEVEL UP system, 2026-09-25",
+  "artifact_revision": 5,
+  "build_id": "0.7.2-r5-level-up-system",
+  "supersedes_artifact_sha256": "d6ea14fb76a8371f22afe0c7f3cce94c50000b3c941c02b8d90f1b94fba7c868"
 }

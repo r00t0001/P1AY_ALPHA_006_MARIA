@@ -131,8 +131,8 @@ class Mechanism77Tests(unittest.TestCase):
     def test_later_system_operational_additions_retained(self):
         self.assertIn('LINK-BASED SAVE SYNC',self.master()['system_operational_additions']['en'])
     def test_variant_build_revision_is_explicit(self):
-        d=self.master();self.assertEqual(d['artifact_revision'],3)
-        self.assertEqual(d['supersedes_artifact_sha256'],'e8fd3065b301904bfb89267193f06a3bd1bf442d150982a14263b2f4230a7cf4')
+        d=self.master();self.assertEqual(d['artifact_revision'],5)
+        self.assertEqual(d['supersedes_artifact_sha256'],'d6ea14fb76a8371f22afe0c7f3cce94c50000b3c941c02b8d90f1b94fba7c868')
 
 # Test each of the 77 source requirements separately. The tests do not imply
 # independent human review or live behavior of the corresponding mechanism.

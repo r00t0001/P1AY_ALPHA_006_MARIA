@@ -12,8 +12,8 @@
   "server_confirmation": "ONLY_EXPLICIT_RECEIPTS",
   "transport": "GOOGLE_DRIVE_DESKTOP",
   "unresolved": 1,
-  "canonical_target_build": "0.7.2-r3-architecture-foundation",
-  "canonical_target_pointer_sha256": "341e0bdf691c918957c2649a70de76dddfd34870bddf09c6785eddc4accf056e",
-  "canonical_target_core_sha256": "d6ea14fb76a8371f22afe0c7f3cce94c50000b3c941c02b8d90f1b94fba7c868",
-  "canonical_reconciliation": "COMPUTER_COMPACT_APPLIED_OWNER_APPROVED_R3_ARCHITECTURE"
+  "canonical_target_build": "0.7.2-r5-level-up-system",
+  "canonical_target_pointer_sha256": "9f34dbe4c87026d7704be3b53f226221bac0878bc353c06b396cbbc651031bb0",
+  "canonical_target_core_sha256": "d021933ed149b66b3166b8488fffc3fee8583053549794cb3aa0382f5c552d53",
+  "canonical_reconciliation": "COMPUTER_COMPACT_APPLIED_OWNER_APPROVED_R5_LEVEL_UP"
 }

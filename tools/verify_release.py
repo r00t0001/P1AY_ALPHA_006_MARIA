@@ -3,7 +3,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
-from release_files import FILES, MANIFEST, RELEASE, LOCALE_FILES, LANGUAGES, VERSION, REQUIRED_RULE_IDS
+from release_files import FILES, MANIFEST, RELEASE, LOCALE_FILES, LANGUAGES, VERSION, REQUIRED_RULE_IDS, ARTIFACT_REVISION, BUILD_ID
 from compile_core import compile_core
 from mechanism_registry import validate_registry, registry_view
 from validate_way_direction import validate_way_direction
@@ -67,7 +67,7 @@ def verify(root=ROOT, require_manifest=None):
     if not (master['version'] == VERSION and master['codename'] == 'JULIA'):
         raise VerificationError('Validation contract failed')
     pointer = json.loads((root / 'pointer/CURRENT_POINTER.json').read_text(encoding='utf-8'))
-    if not (pointer['artifact_revision'] == 3 and pointer['build_id'] == '0.7.2-r3-architecture-foundation'):
+    if not (pointer['artifact_revision'] == ARTIFACT_REVISION and pointer['build_id'] == BUILD_ID):
         raise VerificationError('CLAUDE_POINTER_VERSION_DRIFT')
     if pointer['authority']['shared_protocol_source']['sha256'] != hashlib.sha256((root / 'canon/CORE_MASTER.json').read_bytes()).hexdigest():
         raise VerificationError('CLAUDE_POINTER_CORE_HASH_DRIFT')
@@ -101,7 +101,7 @@ def verify(root=ROOT, require_manifest=None):
     if not validation['independent_technical_review'] == 'PENDING_FOR_0_7_2_HASH':
         raise VerificationError('Validation contract failed')
     registry_result = validate_registry(root, master)
-    if master.get('artifact_revision') != 3 or meta.get('artifact_revision') != 3:
+    if master.get('artifact_revision') != ARTIFACT_REVISION or meta.get('artifact_revision') != ARTIFACT_REVISION:
         raise VerificationError('ARTIFACT_REVISION_DRIFT')
     status = json.loads((root / RELEASE / 'PRODUCT_MAP_STATUS.json').read_text())
     if status['verification_status'] != 'SOURCE_DEFINITIONS_RECOVERED':
@@ -127,7 +127,7 @@ def verify(root=ROOT, require_manifest=None):
         raise VerificationError('SOURCE_AUTHORITY_DRIFT')
     expected_actual=set(FILES)|{MANIFEST}
     actual={p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file()
-        and not any(x in p.relative_to(root).parts for x in ('.git','dist','__pycache__'))}
+        and not any(x in p.relative_to(root).parts for x in ('.git','dist','__pycache__','private'))}
     if not actual.issubset(expected_actual):
         raise VerificationError('UNEXPECTED_SOURCE_MEMBERS: '+str(actual-expected_actual))
     scenario_sets = []
@@ -140,7 +140,7 @@ def verify(root=ROOT, require_manifest=None):
             raise VerificationError('DUPLICATE_CORE_END_MARKER')
         if not core.rstrip().endswith('END_P1AY_CORE_PORTABLE_ALPHA_007'):
             raise VerificationError('Validation contract failed')
-        if not core.splitlines()[0] == 'P1▶Y · ALPHA_007 / JULIA · 0.7.2 · R3 · 2026-09-24':
+        if not core.splitlines()[0] == 'P1▶Y · ALPHA_007 / JULIA · 0.7.2 · R5 · 2026-09-25':
             raise VerificationError('VERSION_HEADER_DRIFT')
         if not ('PRERELEASE V5' not in core and 'P1▶️Y' not in core):
             raise VerificationError('STALE_BRAND_OR_VERSION')
@@ -242,10 +242,10 @@ def verify(root=ROOT, require_manifest=None):
                 raise VerificationError(r['path'])
             if not len(data) == r['bytes']:
                 raise VerificationError('Validation contract failed')
-        actual = {p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file() and (not any((x in p.relative_to(root).parts for x in ('.git', 'dist', '__pycache__'))))}
+        actual = {p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file() and (not any((x in p.relative_to(root).parts for x in ('.git', 'dist', '__pycache__', 'private'))))}
         if not actual == set(FILES) | {MANIFEST}:
             raise VerificationError(f'Unexpected/missing public members: {actual.symmetric_difference(set(FILES) | {MANIFEST})}')
-    return {'status': 'PASS', 'public_files': len(FILES), 'languages': list(LANGUAGES), 'required_restored_rule_groups_per_language': len(REQUIRED_RULE_IDS), 'prior_declared_mechanisms': 77, 'named_mechanisms': registry_result['count'], 'source_definition_parity': registry_result['source_definition_parity'], 'artifact_revision': 3, 'historical_systems_per_language': 53, 'manual_scenarios_per_language': 55, 'live_model_validation': 'NOT_RUN_FOR_0_7_2_HASH'}
+    return {'status': 'PASS', 'public_files': len(FILES), 'languages': list(LANGUAGES), 'required_restored_rule_groups_per_language': len(REQUIRED_RULE_IDS), 'prior_declared_mechanisms': 77, 'named_mechanisms': registry_result['count'], 'source_definition_parity': registry_result['source_definition_parity'], 'artifact_revision': ARTIFACT_REVISION, 'historical_systems_per_language': 53, 'manual_scenarios_per_language': 55, 'live_model_validation': 'NOT_RUN_FOR_0_7_2_HASH'}
 if __name__ == '__main__':
     import argparse, sys
     ap=argparse.ArgumentParser(description=__doc__)

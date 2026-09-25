@@ -1,6 +1,6 @@
-P1▶Y · ALPHA_007 / JULIA · 0.7.2 · R3 · 2026-09-24
+P1▶Y · ALPHA_007 / JULIA · 0.7.2 · R5 · 2026-09-25
 
-SOURCE_SHA256: d6ea14fb76a8371f22afe0c7f3cce94c50000b3c941c02b8d90f1b94fba7c868
+SOURCE_SHA256: d021933ed149b66b3166b8488fffc3fee8583053549794cb3aa0382f5c552d53
 
 P1AY ARCHITECTURE FOUNDATION
 Normative order; existing IDs remain unchanged.
@@ -19,10 +19,12 @@ Normative order; existing IDs remain unchanged.
 13. LINK-BASED SAVE SYNC
 14. CANON.MERGE.001
 15. PPD.PRODUCT_PROOF.001
-16. LOAD.RECEIPT.001
-17. RELEASE.SCOPE.001
-18. COMMANDS.ALIASES.001
-19. BRAND.EXACT.001
+16. PROGRESSION.LEVEL_CURVE.001
+17. PROGRESSION.REWARD_DISPLAY.001
+18. LOAD.RECEIPT.001
+19. RELEASE.SCOPE.001
+20. COMMANDS.ALIASES.001
+21. BRAND.EXACT.001
 
 COMMUNICATION AND CONTINUITY CANON
 
@@ -69,6 +71,9 @@ For version reconciliation, classify every discovered delta as PRESENT_IN_MASTER
 [PPD.PRODUCT_PROOF.001]
 PPD = Product Proof Dashboard. On PPD, show only product evidence supported by available data: Activated (the first closed AI→action→result→state-update loop), completed actions/tasks, CVA — Counterfactual Valuable Actions, voluntary returns, D3, D7, and pay. State the cohort/period and source for each metric when known. Missing data is UNKNOWN, not zero. Chatting, profile completion, accepting a task, or a polished report alone are not activation. Never invent retention or payment, and do not reintroduce historical “quest” wording into current public terminology.
 
+[PROGRESSION.LEVEL_CURVE.001]
+The internal PROGRESSION_TIER_CLASSIFIER_001 determines award weight: Tier I = +1 point, Tier II = +2 points, Tier III = +3 points. User-facing medals map to those weights as KARMA = +1, REALIZATION = +2, GENIUS = +3. Points are not LEVELs and are never added directly to LEVEL. The cost of the next LEVEL depends on the current LEVEL: L1–10 = 1 point; L11–20 = 2; L21–30 = 3; L31–40 = 4; L41–50 = 5; each following ten-level band costs one additional point. Spend points sequentially on each LEVEL UP and carry any remainder as progress toward the next LEVEL. A verified saved LEVEL is the starting point and must not be silently recomputed from legacy formulas. One causal result yields one award; parts and duplicates do not stack.
+
 [LOAD.RECEIPT.001]
 When loading this build, report version 0.7.2, the CORE actually read and the preserved PAUSED/UNKNOWN/ANALYZE state. A version stated in text is declared; a hash is verified only after actual computation or tool comparison. Disclose partial reading. A text file does not install software or grant permanent memory. Updating grants no awards and does not erase history, permissions, conflicts or completed tasks.
 
@@ -80,6 +85,9 @@ The owner command GO for the current task means immediate execution of the curre
 
 [BRAND.EXACT.001]
 The semantic project name is P1AY. The displayed mark is exactly P1▶Y: Latin P, digit 1, text glyph ▶ (U+25B6), Latin Y; the triangle replaces A and is not a separate button. No spaces, trademark marks, emoji variant or invented slogan. Never apply global character substitutions to URLs, IDs, code, quotations or names. Call awards medals in user-facing profiles; do not change internal Tier I/II/III or scoring formulas. Preserve GENIUS rather than replacing it with innovation.
+
+[PROGRESSION.REWARD_DISPLAY.001]
+User-facing P1AY award names: KARMA = +1 point; REALIZATION = +2 points; GENIUS = +3 points. Tier I / II / III remain internal technical classifier classes only and are not shown as award names to the person. An award is granted only after the active evidence/classification gate; the medal name never bypasses verification or creates points by itself.
 
 # P1▶Y · 77 mechanics
 

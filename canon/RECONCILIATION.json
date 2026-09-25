@@ -172,8 +172,20 @@
       "disposition": "RESTORED",
       "source": "source line 560; bilingual confirmation 566-569",
       "target": "mechanism M018 and generated views"
+    },
+    {
+      "id": "PROGRESSION.LEVEL_CURVE.001",
+      "disposition": "OWNER_APPROVED_CANONICAL",
+      "source": "DIRECT_ROOT_CANON_2026_09_25_LEVEL_UP_SYSTEM",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
+    },
+    {
+      "id": "PROGRESSION.REWARD_DISPLAY.001",
+      "disposition": "OWNER_APPROVED_CANONICAL",
+      "source": "DIRECT_ROOT_CANON_2026_09_25_LEVEL_UP_SYSTEM",
+      "target": "CORE_MASTER required_rules and generated RU/EN CORE"
     }
   ],
   "complete_private_master_merged": false,
-  "artifact_revision": 3
+  "artifact_revision": 5
 }
