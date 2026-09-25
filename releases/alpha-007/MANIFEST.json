@@ -326,8 +326,8 @@
     },
     {
       "path": "pointer/CURRENT_POINTER.json",
-      "bytes": 3743,
-      "sha256": "f7680ace6be28cad3f545957a85b8df1b3f0f6900f9627f4937de5090f02af48"
+      "bytes": 4803,
+      "sha256": "4ce74609b7dd94422fd273ece5fae0780146bd0ee7a8b5121fe94707117918ee"
     },
     {
       "path": "compact_state/CORE.md",

@@ -17,9 +17,12 @@
       "sha256": "e2a3943ae2ede2161012c144d2e47f31628a7dc00126fd79ba43be142b14994d"
     },
     "release_archive": {
-      "drive_file_id": "1cNhhjmv76iESjSq4etCPrdcal3gcy10r",
-      "name": "P1AY_ALPHA_007_JULIA_0_7_2_R3_ARCHITECTURE.zip",
-      "sha256": "69fad502709654fbf76d9db7820e41a445bc3971f563067b1e89d0b54012c3b8"
+      "name": "P1AY_ALPHA_007_JULIA_V2_CLAUDE_FULL.zip",
+      "sha256": "91180438bfa960ad2c4b76d50dfa9194cba172e57b3553003feb23ef495817ef",
+      "built_at": "2026-09-25T00:00:00Z",
+      "built_by": "tools/build_release.py against this repo's R5 state; extracted_verification PASS, optimized_verification PASS",
+      "self_reference_note": "This sha256 is of the build immediately preceding this pointer entry's own last edit (standard for a self-packaged pointer: it cannot describe its own not-yet-existing future build). Rebuilding from the current commit reproduces an archive whose only difference from this recorded hash is this field's own text.",
+      "note": "Replaces a prior release_archive entry (name P1AY_ALPHA_007_JULIA_0_7_2_R3_ARCHITECTURE.zip, sha256 69fad502709654fbf76d9db7820e41a445bc3971f563067b1e89d0b54012c3b8, Drive ID 1cNhhjmv76iESjSq4etCPrdcal3gcy10r) whose byte content ANDY's review could not independently verify: the actually-distributed source ZIP for this build (P1AY_ALPHA_007.2_JULIA.zip, sha256 29bc384ef0f648edde32c735478c6cd212837a164847a0998462d27adf5281a1) had a different name and hash, and no receipt tied them together. This entry now points to a freshly built, hash-verified archive of the current repo state instead."
     },
     "owner_player": {
       "scope": "PRIVATE_ROOT_001",
