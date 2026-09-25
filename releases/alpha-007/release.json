@@ -40,7 +40,8 @@
   "product_map": {
     "prior_declared_mechanisms": 77,
     "enumerated_mechanisms_verified": 77,
-    "status": "SOURCE_DEFINITIONS_RECOVERED",
+    "enumerated_mechanisms_verified_meaning": "Structural count of populated registry entries (id/name/RU+EN definition present for each), not independent verification of the original source transcript; see VALIDATION.json#complete_77_map and RELEASE_BLOCKS.md gate 1.",
+    "status": "REGISTRY_POPULATED_SOURCE_TRANSCRIPT_NOT_SHIPPED",
     "historical_superseded_systems": 53,
     "current_authority": "canon/CORE_MASTER.json#mechanism_registry",
     "prior_approved_count": 77,

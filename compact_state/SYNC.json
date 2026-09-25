@@ -8,6 +8,7 @@
   "reminder_required": true,
   "save_check": "PASS_LOCAL_SAVE_ONLY",
   "save_hash": "833228395a81dceacf5e8ed0a9012cb4666d0528afd48e9de4a921d5b7718196",
+  "save_hash_meaning": "This is SAVE.json's own content_hash field (sha256 of the canonicalized decisions payload with content_hash removed), not the sha256 of SAVE.json's raw file bytes. The file itself is private and excluded from this package per runtime/docs/PRIVACY.md.",
   "schema": "COMPACT_SYNC_STATUS_01",
   "server_confirmation": "ONLY_EXPLICIT_RECEIPTS",
   "transport": "GOOGLE_DRIVE_DESKTOP",

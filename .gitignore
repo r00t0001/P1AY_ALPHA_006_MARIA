@@ -42,3 +42,4 @@ P1AY_CORE.private.*
 # Local release bundles
 *.zip
 *.zip.sha256
+compact_state/SAVE.json

@@ -71,11 +71,17 @@ def verify(root=ROOT, require_manifest=None):
         raise VerificationError('CLAUDE_POINTER_VERSION_DRIFT')
     if pointer['authority']['shared_protocol_source']['sha256'] != hashlib.sha256((root / 'canon/CORE_MASTER.json').read_bytes()).hexdigest():
         raise VerificationError('CLAUDE_POINTER_CORE_HASH_DRIFT')
-    compact_save = json.loads((root / 'compact_state/SAVE.json').read_text(encoding='utf-8'))
-    compact_hash = compact_save.pop('content_hash')
-    compact_raw = (json.dumps(compact_save, ensure_ascii=False, sort_keys=True, indent=2) + '\n').encode()
-    if compact_hash != hashlib.sha256(compact_raw).hexdigest() or len(compact_save['decisions']) != 25:
-        raise VerificationError('COMPACT_SAVE_INTEGRITY_OR_COUNT')
+    compact_save_path = root / 'compact_state/SAVE.json'
+    if compact_save_path.is_file():
+        # Private owner state, excluded from the public FILES allowlist per
+        # runtime/docs/PRIVACY.md. When present locally (the owner's own
+        # working tree), still verify its integrity; a public/redistributed
+        # checkout legitimately lacks it and skips this check.
+        compact_save = json.loads(compact_save_path.read_text(encoding='utf-8'))
+        compact_hash = compact_save.pop('content_hash')
+        compact_raw = (json.dumps(compact_save, ensure_ascii=False, sort_keys=True, indent=2) + '\n').encode()
+        if compact_hash != hashlib.sha256(compact_raw).hexdigest() or len(compact_save['decisions']) != 25:
+            raise VerificationError('COMPACT_SAVE_INTEGRITY_OR_COUNT')
     compact_sync = json.loads((root / 'compact_state/SYNC.json').read_text(encoding='utf-8'))
     if not (compact_sync['canonical_target_build'] == pointer['build_id'] and compact_sync['counts'] == {'PENDING': 1} and compact_sync['unresolved'] == 1):
         raise VerificationError('COMPACT_SYNC_STATUS_DRIFT')
@@ -126,8 +132,10 @@ def verify(root=ROOT, require_manifest=None):
     if master['authoring_authority'] != 'canon/CORE_MASTER.json':
         raise VerificationError('SOURCE_AUTHORITY_DRIFT')
     expected_actual=set(FILES)|{MANIFEST}
+    local_private_extras={'compact_state/SAVE.json'}
     actual={p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file()
         and not any(x in p.relative_to(root).parts for x in ('.git','dist','__pycache__','private'))}
+    actual=actual-local_private_extras
     if not actual.issubset(expected_actual):
         raise VerificationError('UNEXPECTED_SOURCE_MEMBERS: '+str(actual-expected_actual))
     scenario_sets = []
@@ -243,6 +251,7 @@ def verify(root=ROOT, require_manifest=None):
             if not len(data) == r['bytes']:
                 raise VerificationError('Validation contract failed')
         actual = {p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file() and (not any((x in p.relative_to(root).parts for x in ('.git', 'dist', '__pycache__', 'private'))))}
+        actual = actual - local_private_extras
         if not actual == set(FILES) | {MANIFEST}:
             raise VerificationError(f'Unexpected/missing public members: {actual.symmetric_difference(set(FILES) | {MANIFEST})}')
     return {'status': 'PASS', 'public_files': len(FILES), 'languages': list(LANGUAGES), 'required_restored_rule_groups_per_language': len(REQUIRED_RULE_IDS), 'prior_declared_mechanisms': 77, 'named_mechanisms': registry_result['count'], 'source_definition_parity': registry_result['source_definition_parity'], 'artifact_revision': ARTIFACT_REVISION, 'historical_systems_per_language': 53, 'manual_scenarios_per_language': 55, 'live_model_validation': 'NOT_RUN_FOR_0_7_2_HASH'}

@@ -26,7 +26,11 @@ FILES += ["ARCHITECTURE_FOUNDATION.md"]
 # Private Claude transfer layer: canonical pointer, compact computer state and
 # the external runtime are explicitly packaged and verified.
 FILES += ['CLAUDE.md', 'EXPORT_SCOPE.md', 'pointer/CURRENT_POINTER.json']
-FILES += ['compact_state/'+name for name in ('CORE.md','SAVE.json','SYNC.json')]
+FILES += ['compact_state/'+name for name in ('CORE.md','SYNC.json')]
+# compact_state/SAVE.json holds the owner's actual decisions payload and is
+# excluded from the public allowlist per runtime/docs/PRIVACY.md ("Exclude
+# ... actual SAVE"). It stays on disk locally (gitignored) so a local
+# verify() run can still check its integrity/hash against SYNC.json.
 FILES += ['runtime/'+name for name in (
     '.gitignore','README.md','release.json',
     'docs/ARCHITECTURE.md','docs/OPERATIONS.md','docs/PRIVACY.md',

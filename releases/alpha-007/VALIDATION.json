@@ -7,10 +7,10 @@
   "full_behavioral_suite": "NOT_RUN_FOR_0_7_2_HASH",
   "independent_translation_review": "NOT_RUN_FOR_0_7_2_HASH",
   "independent_technical_review": "PENDING_FOR_0_7_2_HASH",
-  "runtime_round_trip": "NOT_RUN_EXTERNAL_RUNTIME_NOT_BUNDLED",
-  "complete_77_map": "UNVERIFIED_SOURCE_NOT_RECOVERED",
+  "runtime_round_trip": "NOT_RUN_RUNTIME_IS_BUNDLED_BUT_NOT_EXERCISED",
+  "complete_77_map": "REGISTRY_POPULATED_ORIGINAL_TRANSCRIPT_NOT_SHIPPED_UNVERIFIABLE_BY_THIRD_PARTY",
   "github_repository_status": "NOT_PUBLISHED_BY_THIS_BUILD",
   "historical_reviews_are_current": false,
-  "artifact_revision": 3,
+  "artifact_revision": 5,
   "mechanism_registry_scope": "77_SOURCE_DEFINITIONS_AND_GENERATED_PARITY_NOT_RUNTIME_PROOF"
 }
