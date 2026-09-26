@@ -1,4 +1,4 @@
-# P1▶Y · ALPHA_007 / JULIA · 0.7.2 · R3 / 77
+# P1▶Y · ALPHA_007 / JULIA · 0.7.2 · R5 / 77
 
 Portable text protocol · MIT · reviewed-source reconciliation candidate.
 
@@ -24,9 +24,12 @@ The builder checks an explicit file allowlist, generated-source parity, required
 Restored communication canon; human choice and boundaries; retained WAY and scoring contracts; default-safe empty SAVE templates; complete approved 77-item map and separate historical 53-system reference; deterministic compiler, verifier, regression tests and source-disposition register.
 
 ## Not included / not certified
-The existing external SQLite/Drive synchronization runtime, private profiles and conversations are not distributed. All 77 original grouped definitions are now included; English descriptions are translated for this recovery, with explicit provenance. This is not certification of 77 implemented external services. PPD's retained text contract is included, not a measured product result. New exact-hash live model tests and independent reviews are still required. The user's computer master is not silently overwritten by extracting this package.
+The SQLite/Drive synchronization runtime's *source* is bundled (`runtime/`, unit-tested), but its installation and live operation on the owner's machine are not distributed or certified by this build — bundled code is not an installed service. Private profiles and conversations (`PLAYER.md`, `SAVE.json`, correspondence) are not distributed. All 77 original grouped definitions are now included; English descriptions are translated for this recovery, with explicit provenance. This is not certification of 77 implemented external services. PPD's retained text contract is included, not a measured product result. New exact-hash live model tests and independent reviews are still required. The user's computer master is not silently overwritten by extracting this package.
 
 See [release status](RELEASE_STATUS.md), [changes](CHANGELOG.md), [migration](MIGRATION_0_7_2.md), and [reconciliation](canon/RECONCILIATION.json).
 
 ## 0.7.2 R3 / восстановление 77
 The artifact revision distinguishes this build from the earlier 0.7.2 ZIP. The earlier bytes remain historical, not silently identical. See [recovery evidence and limits](RECOVERY_77.md). The complete registry is included in both CORE editions, not only referenced by a number.
+
+## 0.7.2 R5 / LEVEL UP system
+Current build. Adds `PROGRESSION.LEVEL_CURVE.001` and `PROGRESSION.REWARD_DISPLAY.001`: public medal names (КАРМА/РЕАЛ1ЗАЦ1Я/ГЕН1АЛЬН0СТЬ) map to internal Tier I/II/III weights, and LEVEL cost scales by band (L1–10=1 point, L11–20=2, … +1 per following decade). Architecture Foundation is now 21 ordered items.

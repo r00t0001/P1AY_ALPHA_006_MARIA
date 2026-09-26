@@ -2,7 +2,7 @@
 
 ## Current open gates
 1. Complete named 77-mechanism source map: not recovered. Do not claim enumeration completeness.
-2. External sync-runtime: excluded from this text distribution; integration, real-device receipts and independent security review remain external gates.
+2. Sync-runtime source (runtime/p1ay_sync/) is bundled for audit and unit-tested (19 tests), but its live installation on the owner's Mac, real-device round-trip receipts and independent security review remain external gates. Bundled code is not the same as an installed, running service.
 3. Exact-hash live model behavior and independent technical/translation review: pending.
 4. PPD command semantics: not recovered; must not invent them.
 

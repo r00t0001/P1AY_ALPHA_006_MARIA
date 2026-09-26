@@ -6,8 +6,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 2925,
-      "sha256": "3dbd7a63d7b98f258bfc6c7c60aa0eeae296e5f89cdd6b9d2d26faf0518082d3"
+      "bytes": 3525,
+      "sha256": "8d33461fe9e6daf958ebbe26ebe2f32ba21c401842d6320a17649dc264b0ef1e"
     },
     {
       "path": "LICENSE",
@@ -26,8 +26,8 @@
     },
     {
       "path": "RELEASE_BLOCKS.md",
-      "bytes": 915,
-      "sha256": "5991411b38c2ecf11c3ea9d73793c7800f99fca15eb135b61150044938cc32ff"
+      "bytes": 1051,
+      "sha256": "61010cdb26020ac37e966d5978a5997848c36c412e1b32487e7e8533029f1bbc"
     },
     {
       "path": "TRANSLATION_REVIEW.md",
@@ -91,8 +91,8 @@
     },
     {
       "path": "releases/alpha-007/locales/en/INFO.md",
-      "bytes": 614,
-      "sha256": "536ced0088551468090ed4bab685efc3f1b69b481a5729de6261981527fc8c0f"
+      "bytes": 756,
+      "sha256": "c46c513d0e73a9a56dce3d54196094840dd6f748d44963f2d8f39bc0a9a5106f"
     },
     {
       "path": "releases/alpha-007/locales/en/START_CHAT.txt",
@@ -136,8 +136,8 @@
     },
     {
       "path": "releases/alpha-007/locales/ru/INFO.md",
-      "bytes": 1068,
-      "sha256": "b095839ff7e0c44d943124e632554899c8c8b48c9fa49b2ba3081d529c7ec29c"
+      "bytes": 1305,
+      "sha256": "637f7e81b0f7d3856abfb4528e280fb41336cd4502c18f2a075b831e7afac127"
     },
     {
       "path": "releases/alpha-007/locales/ru/START_CHAT.txt",
@@ -311,13 +311,13 @@
     },
     {
       "path": "ARCHITECTURE_FOUNDATION.md",
-      "bytes": 1088,
-      "sha256": "7aa2e608b3f4d8d2170ab81edceee8383a48ac7c5d89e1af59b4acb114986ed5"
+      "bytes": 1225,
+      "sha256": "fd9816ee21a480fce42f53a3c453b0c055b76cd93a3cb764bcf9da90d13bcb57"
     },
     {
       "path": "CLAUDE.md",
-      "bytes": 2463,
-      "sha256": "9484507e4106580140a65d7ce4cfc0ec32eb3ca44c40c4c3301b024cca16e94d"
+      "bytes": 2711,
+      "sha256": "644dfcf48d67a65b8b99350c1d7cf915714e50b2aeaf521eb972a818de135cbb"
     },
     {
       "path": "EXPORT_SCOPE.md",
@@ -337,7 +337,7 @@
     {
       "path": "compact_state/SYNC.json",
       "bytes": 1020,
-      "sha256": "6dd749c995e6aa285dd750d774f5777e61725adfe792aa3fc26293f1893b9af0"
+      "sha256": "70216461017144be134a7608a2352f6ee11cef609f73e4cb404106f6e7e78a1d"
     },
     {
       "path": "runtime/.gitignore",
